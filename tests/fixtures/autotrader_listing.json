@@ -1,0 +1,174 @@
+{
+ "listings": [
+  {
+   "vin": "WAUH3DGY3PA030642",
+   "id": "791111001",
+   "year": 2023,
+   "make": {
+    "name": "Audi"
+   },
+   "model": {
+    "name": "S3"
+   },
+   "trim": {
+    "name": "Premium Plus"
+   },
+   "mileage": {
+    "value": "26,049"
+   },
+   "pricingDetail": {
+    "displayPrice": 36713
+   },
+   "listingType": "USED",
+   "bodyStyles": [
+    {
+     "code": "SEDAN",
+     "name": "Sedan"
+    }
+   ],
+   "titleLong": "Used 2023 Audi S3 Premium Plus",
+   "vhrPreview": [
+    "NO_SALVAGE_TITLE",
+    "NO_ACCIDENTS_REPORTED",
+    "ONE_OWNER"
+   ],
+   "owner": {
+    "name": "Alderman Automotive",
+    "distanceFromSearch": 160.4,
+    "location": {
+     "address": {
+      "city": "Fishers",
+      "state": "IN"
+     }
+    }
+   }
+  },
+  {
+   "vin": "WAUH3DGY9PA043438",
+   "id": "791111002",
+   "year": 2023,
+   "make": {
+    "name": "Audi"
+   },
+   "model": {
+    "name": "S3"
+   },
+   "trim": {
+    "name": "Premium"
+   },
+   "mileage": {
+    "value": "30,000"
+   },
+   "pricingDetail": {
+    "displayPrice": 34000
+   },
+   "listingType": "USED",
+   "bodyStyles": [
+    {
+     "code": "SEDAN",
+     "name": "Sedan"
+    }
+   ],
+   "titleLong": "Used 2023 Audi S3 Premium",
+   "vhrPreview": [
+    "ACCIDENTS_REPORTED"
+   ],
+   "owner": {
+    "name": "Some Dealer",
+    "distanceFromSearch": 50.0,
+    "location": {
+     "address": {
+      "city": "Dayton",
+      "state": "OH"
+     }
+    }
+   }
+  },
+  {
+   "vin": "WAUC4CF52PA000001",
+   "id": "791111003",
+   "year": 2022,
+   "make": {
+    "name": "Audi"
+   },
+   "model": {
+    "name": "S5"
+   },
+   "trim": {
+    "name": "Premium Plus"
+   },
+   "mileage": {
+    "value": "28,000"
+   },
+   "pricingDetail": {
+    "displayPrice": 37000
+   },
+   "listingType": "USED",
+   "bodyStyles": [
+    {
+     "code": "COUPE",
+     "name": "Coupe"
+    }
+   ],
+   "titleLong": "Used 2022 Audi S5 Prestige Columbus OH 43004",
+   "vhrPreview": [
+    "NO_SALVAGE_TITLE",
+    "NO_ACCIDENTS_REPORTED"
+   ],
+   "owner": {
+    "name": "Coupe Dealer",
+    "distanceFromSearch": 75.0,
+    "location": {
+     "address": {
+      "city": "Columbus",
+      "state": "OH"
+     }
+    }
+   }
+  },
+  {
+   "vin": "WAUC4CF5XPA000002",
+   "id": "791111004",
+   "year": 2022,
+   "make": {
+    "name": "Audi"
+   },
+   "model": {
+    "name": "S5"
+   },
+   "trim": {
+    "name": "Premium Plus"
+   },
+   "mileage": {
+    "value": "31,500"
+   },
+   "pricingDetail": {
+    "displayPrice": 38100
+   },
+   "listingType": "CERTIFIED",
+   "bodyStyles": [
+    {
+     "code": "HATCH",
+     "name": "Hatchback"
+    }
+   ],
+   "titleLong": "Used 2022 Audi S5 Premium Plus Indianapolis IN 46204",
+   "vhrPreview": [
+    "NO_SALVAGE_TITLE",
+    "NO_ACCIDENTS_REPORTED",
+    "ONE_OWNER"
+   ],
+   "owner": {
+    "name": "Indy Auto Group",
+    "distanceFromSearch": 210.0,
+    "location": {
+     "address": {
+      "city": "Indianapolis",
+      "state": "IN"
+     }
+    }
+   }
+  }
+ ],
+ "totalResultCount": 4
+}

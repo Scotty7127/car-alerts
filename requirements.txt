@@ -1,0 +1,7 @@
+# curl_cffi replaces `requests` here on purpose: cars.com (Cloudflare) and
+# carmax.com (Akamai) fingerprint the TLS handshake, so plain requests gets a
+# hard 403 regardless of headers. curl_cffi is a pip-only wheel that replays a
+# real Chrome fingerprint - no browser binary, unlike Selenium/Playwright.
+curl_cffi>=0.7,<1.0
+beautifulsoup4>=4.12
+lxml>=5.0

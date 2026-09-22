@@ -1,0 +1,75 @@
+name: Car scan
+
+on:
+  schedule:
+    # Every 2 hours, on the hour (UTC). GitHub's scheduler is best-effort and
+    # can run several minutes late under load - that is fine for this.
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode"
+        type: choice
+        default: normal
+        options: [normal, dry-run, seed]
+
+permissions:
+  contents: write
+
+# Never let two scans race on the state file.
+concurrency:
+  group: car-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    env:
+      PYTHONPATH: src
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+      NTFY_URL: ${{ secrets.NTFY_URL }}
+      NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build run flags
+        id: flags
+        run: |
+          case "${{ github.event.inputs.mode }}" in
+            dry-run) echo "flags=--dry-run" >> "$GITHUB_OUTPUT" ;;
+            seed)    echo "flags=--seed"    >> "$GITHUB_OUTPUT" ;;
+            *)       echo "flags="          >> "$GITHUB_OUTPUT" ;;
+          esac
+
+      - name: Scan
+        # Sources fail soft internally; a non-zero exit here means a real bug.
+        run: python -m carbot.main ${{ steps.flags.outputs.flags }}
+
+      - name: Commit state if it changed
+        if: github.event.inputs.mode != 'dry-run'
+        run: |
+          if git diff --quiet -- state/listings.json; then
+            echo "state/listings.json unchanged - nothing to commit"
+            exit 0
+          fi
+          git config user.name  "carbot"
+          git config user.email "carbot@users.noreply.github.com"
+          git add state/listings.json
+          git commit -m "chore(state): update listings [skip ci]"
+          # Another scan may have landed while this one ran.
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
