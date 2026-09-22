@@ -21,7 +21,7 @@
         "cars.com"
       ],
       "state": "MA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium TFSI quattro Tiptronic",
       "url": "https://www.cars.com/vehicledetail/9de5e7a0-1b96-4556-9ad2-0df5100a8004/",
       "urls": {
@@ -40,7 +40,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 44789,
       "model": "S4",
@@ -80,7 +80,7 @@
         "cars.com"
       ],
       "state": "FL",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium TFSI quattro Tiptronic",
       "url": "https://www.cars.com/vehicledetail/d6f70c6b-cb60-4db5-8da0-4dbe3b8b531c/",
       "urls": {
@@ -92,29 +92,26 @@
     "WAUA4CF53NA028743": {
       "body_style": "Hatchback",
       "city": "Breaux Bridge",
-      "dealer": "Courtesy Ford of Breaux Bridge",
-      "distance_mi": 744.0,
+      "dealer": "Courtesy Ford",
+      "distance_mi": 742.73,
       "first_seen": "2026-09-22T18:37:05+00:00",
       "flags": [
-        "certified",
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 27526,
       "model": "S5",
       "price": 36885,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "LA",
       "status": "available",
-      "trim": "3.0T QUATTRO PREMIUM",
-      "url": "https://www.cars.com/vehicledetail/3ed9f16c-1309-4440-b815-3f449463380d/",
+      "trim": "Premium",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/783819447",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/783819447",
         "cars.com": "https://www.cars.com/vehicledetail/3ed9f16c-1309-4440-b815-3f449463380d/"
@@ -143,7 +140,7 @@
         "cars.com"
       ],
       "state": "OH",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro Tiptronic",
       "url": "https://www.cars.com/vehicledetail/ad5aa8f3-dc38-4dc1-b3b8-9c6f2c57d224/",
       "urls": {
@@ -153,31 +150,27 @@
       "year": 2023
     },
     "WAUB4AF43LA049878": {
-      "body_style": "Sedan",
+      "body_style": "4D Sedan",
       "city": "Palmdale",
       "dealer": "CarMax Palmdale",
-      "distance_mi": 1875.0,
+      "distance_mi": 1876.2,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
-        "clean_title",
-        "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 21120,
       "model": "S4",
       "price": 37998,
-      "source": "cars.com",
+      "source": "carmax",
       "sources": [
-        "cars.com",
         "carmax"
       ],
       "state": "CA",
       "status": "available",
       "trim": "Premium Plus",
-      "url": "https://www.cars.com/vehicledetail/439aea68-3f61-4da1-9a23-1cb91e589725/",
+      "url": "https://www.carmax.com/car/70228243",
       "urls": {
         "carmax": "https://www.carmax.com/car/70228243",
         "cars.com": "https://www.cars.com/vehicledetail/439aea68-3f61-4da1-9a23-1cb91e589725/"
@@ -186,30 +179,25 @@
       "year": 2020
     },
     "WAUB4AF43NA050600": {
-      "body_style": "Sedan",
+      "body_style": "4D Sedan",
       "city": "Marysville",
       "dealer": "CarMax Tulalip",
-      "distance_mi": 1961.0,
+      "distance_mi": 1957.9,
       "first_seen": "2026-09-22T13:51:15+00:00",
-      "flags": [
-        "clean_title",
-        "no_accidents",
-        "personal_use"
-      ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "flags": [],
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 21060,
       "model": "S4",
       "price": 37998,
-      "source": "cars.com",
+      "source": "carmax",
       "sources": [
-        "cars.com",
         "carmax"
       ],
       "state": "WA",
       "status": "available",
       "trim": "Premium Plus",
-      "url": "https://www.cars.com/vehicledetail/21ad3ae2-e624-47ac-84a7-787983ce2578/",
+      "url": "https://www.carmax.com/car/28511769",
       "urls": {
         "carmax": "https://www.carmax.com/car/28511769",
         "cars.com": "https://www.cars.com/vehicledetail/21ad3ae2-e624-47ac-84a7-787983ce2578/"
@@ -238,7 +226,7 @@
         "cars.com"
       ],
       "state": "NJ",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro Tiptronic",
       "url": "https://www.cars.com/vehicledetail/e8ceef1a-2390-4b39-9df1-0965473758e8/",
       "urls": {
@@ -250,28 +238,26 @@
     "WAUB4AF48MA014285": {
       "body_style": "Sedan",
       "city": "Tomball",
-      "dealer": "THIScar",
-      "distance_mi": 890.0,
+      "dealer": "THIScar - SELL US YOUR CAR!",
+      "distance_mi": 888.8,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 40267,
       "model": "S4",
       "price": 36685,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "TX",
       "status": "available",
-      "trim": "3.0T Premium",
-      "url": "https://www.cars.com/vehicledetail/0400fe53-f26d-403d-a09d-34d7aaef19e8/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790748921",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790748921",
         "cars.com": "https://www.cars.com/vehicledetail/0400fe53-f26d-403d-a09d-34d7aaef19e8/"
@@ -300,7 +286,7 @@
         "cars.com"
       ],
       "state": "TX",
-      "status": "available",
+      "status": "gone",
       "trim": "3.0T Premium",
       "url": "https://www.cars.com/vehicledetail/10f849d5-cfee-4304-8db8-f1f555e31497/",
       "urls": {
@@ -312,29 +298,27 @@
     "WAUB4AF48NA030875": {
       "body_style": "Sedan",
       "city": "Montclair",
-      "dealer": "California Motors Direct - Montclair",
-      "distance_mi": 1864.0,
+      "dealer": "California Motors Direct Montclair",
+      "distance_mi": 1863.37,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 40530,
       "model": "S4",
       "price": 37985,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "CA",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro Tiptronic",
-      "url": "https://www.cars.com/vehicledetail/f832543a-9469-4a1c-95de-b57cc2d6bc9a/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/785624558",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/785624558",
         "cars.com": "https://www.cars.com/vehicledetail/f832543a-9469-4a1c-95de-b57cc2d6bc9a/"
@@ -363,7 +347,7 @@
         "cars.com"
       ],
       "state": "MO",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro Tiptronic",
       "url": "https://www.cars.com/vehicledetail/70799f39-5732-4e35-a745-078aff92cc80/",
       "urls": {
@@ -393,7 +377,7 @@
         "cars.com"
       ],
       "state": "NY",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro Tiptronic",
       "url": "https://www.cars.com/vehicledetail/b965c06a-0865-44c1-9d50-28fdbdc08af2/",
       "urls": {
@@ -405,29 +389,27 @@
     "WAUB4AF4XPA084052": {
       "body_style": "Sedan",
       "city": "Martinez",
-      "dealer": "Gerald Jones VW Audi Mazda Subaru",
-      "distance_mi": 413.0,
+      "dealer": "Gerald Jones Mazda",
+      "distance_mi": 412.58,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 44796,
       "model": "S4",
       "price": 37566,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "GA",
       "status": "available",
-      "trim": "3.0T Premium Plus",
-      "url": "https://www.cars.com/vehicledetail/e5ee48bc-3f45-45b7-83eb-b835c6d5ce03/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790059611",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790059611",
         "cars.com": "https://www.cars.com/vehicledetail/e5ee48bc-3f45-45b7-83eb-b835c6d5ce03/"
@@ -439,27 +421,25 @@
       "body_style": "Sedan",
       "city": "Marysville",
       "dealer": "Performance Luxury Sport",
-      "distance_mi": 96.0,
+      "distance_mi": 96.12,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 39606,
       "model": "S4",
       "price": 36898,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "OH",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro Tiptronic",
-      "url": "https://www.cars.com/vehicledetail/218b7f79-a6e6-465e-95f5-14466681489a/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/789027759",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/789027759",
         "cars.com": "https://www.cars.com/vehicledetail/218b7f79-a6e6-465e-95f5-14466681489a/"
@@ -488,7 +468,7 @@
         "cars.com"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige",
       "url": "https://www.cars.com/vehicledetail/f6f7ed95-69c9-4335-b43b-564e2f2adbe2/",
       "urls": {
@@ -507,7 +487,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 44809,
       "model": "S4",
@@ -547,7 +527,7 @@
         "cars.com"
       ],
       "state": "PA",
-      "status": "available",
+      "status": "gone",
       "trim": "3.0T Prestige",
       "url": "https://www.cars.com/vehicledetail/9870ac6c-4446-422d-befb-04c781c5ffdf/",
       "urls": {
@@ -559,28 +539,26 @@
     "WAUC4CF50PA019428": {
       "body_style": "Hatchback",
       "city": "Palmetto Bay",
-      "dealer": "HGreg Nissan Kendall",
-      "distance_mi": 968.0,
+      "dealer": "Hgreg Nissan Kendall",
+      "distance_mi": 966.9,
       "first_seen": "2026-09-22T18:33:12+00:00",
       "flags": [
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 43722,
       "model": "S5",
       "price": 38499,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "FL",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro Tiptronic",
-      "url": "https://www.cars.com/vehicledetail/14690fe5-c989-4bea-aa5e-4f92590abd6a/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790635901",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790635901",
         "cars.com": "https://www.cars.com/vehicledetail/14690fe5-c989-4bea-aa5e-4f92590abd6a/"
@@ -591,29 +569,27 @@
     "WAUC4CF50PA045043": {
       "body_style": "Hatchback",
       "city": "Streetsboro",
-      "dealer": "Volkswagen of Streetsboro",
-      "distance_mi": 220.0,
+      "dealer": "VW of Streetsboro",
+      "distance_mi": 220.18,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 35939,
       "model": "S5",
       "price": 37749,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "OH",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro Tiptronic",
-      "url": "https://www.cars.com/vehicledetail/9a2e9cca-49ea-4977-b381-352ed2b8e013/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/787237270",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/787237270",
         "cars.com": "https://www.cars.com/vehicledetail/9a2e9cca-49ea-4977-b381-352ed2b8e013/"
@@ -642,7 +618,7 @@
         "cars.com"
       ],
       "state": "UT",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro Tiptronic",
       "url": "https://www.cars.com/vehicledetail/c06c4ad8-51f8-44ba-935e-6afe904d9eb7/",
       "urls": {
@@ -672,7 +648,7 @@
         "cars.com"
       ],
       "state": "NC",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.cars.com/vehicledetail/971cf22a-03cd-4492-a59c-15653ea57c3f/",
       "urls": {
@@ -691,7 +667,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 37125,
       "model": "S5",
@@ -714,28 +690,26 @@
       "body_style": "Sedan",
       "city": "Powell",
       "dealer": "Auto Assets",
-      "distance_mi": 102.0,
+      "distance_mi": 101.91,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 42623,
       "model": "S3",
-      "price": 31356,
-      "source": "cars.com",
+      "price": 31606,
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "OH",
       "status": "available",
-      "trim": "2.0T quattro Premium",
-      "url": "https://www.cars.com/vehicledetail/61825fa4-28ff-454a-a677-125d70c1a666/",
+      "trim": "Premium",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/791186584",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/791186584",
         "cars.com": "https://www.cars.com/vehicledetail/61825fa4-28ff-454a-a677-125d70c1a666/"
@@ -754,7 +728,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 39263,
       "model": "S3",
@@ -783,11 +757,11 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 31114,
       "model": "S3",
-      "price": 34568,
+      "price": 34793,
       "source": "autotrader",
       "sources": [
         "autotrader"
@@ -812,7 +786,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 30000,
       "model": "S3",
@@ -831,32 +805,60 @@
       "vin": "WAUG3DGY5PA118524",
       "year": 2023
     },
+    "WAUG3DGY7PA044278": {
+      "body_style": "Sedan",
+      "city": "Miami",
+      "dealer": "Florida Fine Cars-Miami",
+      "distance_mi": 944.84,
+      "first_seen": "2026-09-22T22:48:20+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T22:48:20+00:00",
+      "make": "Audi",
+      "mileage": 29457,
+      "model": "S3",
+      "price": 33199,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "FL",
+      "status": "available",
+      "trim": "Premium",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/776383002",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/776383002"
+      },
+      "vin": "WAUG3DGY7PA044278",
+      "year": 2023
+    },
     "WAUG3DGY8PA030860": {
       "body_style": "Sedan",
       "city": "Roswell",
       "dealer": "Audi North Atlanta",
-      "distance_mi": 354.0,
+      "distance_mi": 352.71,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 36903,
       "model": "S3",
-      "price": 33500,
-      "source": "cars.com",
+      "price": 34498,
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "GA",
       "status": "available",
-      "trim": "Premium TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/cb4e847b-55fd-4ca4-82de-e6419c43287e/",
+      "trim": "Premium",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790902863",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790902863",
         "cars.com": "https://www.cars.com/vehicledetail/cb4e847b-55fd-4ca4-82de-e6419c43287e/"
@@ -885,7 +887,7 @@
         "cars.com"
       ],
       "state": "NJ",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium",
       "url": "https://www.cars.com/vehicledetail/4eb0bc30-e649-46ee-9718-7ce36be1a0a9/",
       "urls": {
@@ -898,28 +900,26 @@
       "body_style": "Sedan",
       "city": "Indianapolis",
       "dealer": "Fishers Imports NW",
-      "distance_mi": 107.0,
+      "distance_mi": 106.62,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 22735,
       "model": "S3",
       "price": 37800,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "IN",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/9ec091e8-15eb-4ade-813a-24df3a8a7667/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/784894565",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/784894565",
         "cars.com": "https://www.cars.com/vehicledetail/9ec091e8-15eb-4ade-813a-24df3a8a7667/"
@@ -930,29 +930,27 @@
     "WAUH3CGY4PA041210": {
       "body_style": "Sedan",
       "city": "Framingham",
-      "dealer": "AutoMax Preowned Framingham",
-      "distance_mi": 716.0,
+      "dealer": "Automax Preowned",
+      "distance_mi": 715.99,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 38227,
       "model": "S3",
       "price": 35495,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "MA",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/d6ad5b55-8f7d-4442-9c9d-c3587eab82ac/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/787814611",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/787814611",
         "cars.com": "https://www.cars.com/vehicledetail/d6ad5b55-8f7d-4442-9c9d-c3587eab82ac/"
@@ -964,28 +962,26 @@
       "body_style": "Sedan",
       "city": "Wayzata",
       "dealer": "Walser Nissan Wayzata",
-      "distance_mi": 611.0,
+      "distance_mi": 610.41,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 44798,
       "model": "S3",
       "price": 32749,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "MN",
       "status": "available",
       "trim": "Premium Plus",
-      "url": "https://www.cars.com/vehicledetail/82d523ce-6fa1-429d-8ae0-85b24e8cbd18/",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/784803614",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/784803614",
         "cars.com": "https://www.cars.com/vehicledetail/82d523ce-6fa1-429d-8ae0-85b24e8cbd18/"
@@ -997,28 +993,26 @@
       "body_style": "Sedan",
       "city": "Willowbrook",
       "dealer": "Highline Auto Sales",
-      "distance_mi": 254.0,
+      "distance_mi": 254.18,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 37289,
       "model": "S3",
-      "price": 33372,
-      "source": "cars.com",
+      "price": 33373,
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "IL",
       "status": "available",
-      "trim": "2.0T Premium Plus",
-      "url": "https://www.cars.com/vehicledetail/e8386e10-d478-4af9-9498-d3c6f4752d13/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/788483599",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/788483599",
         "cars.com": "https://www.cars.com/vehicledetail/e8386e10-d478-4af9-9498-d3c6f4752d13/"
@@ -1029,28 +1023,26 @@
     "WAUH3DGY0NA003296": {
       "body_style": "Sedan",
       "city": "Everett",
-      "dealer": "Dwayne Lane's Chrysler Dodge Jeep Ram",
-      "distance_mi": 1963.0,
+      "dealer": "Dwayne Lane's Chrysler Jeep Dodge RAM",
+      "distance_mi": 1962.61,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 40442,
       "model": "S3",
       "price": 37199,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "WA",
       "status": "available",
-      "trim": "2.0T Premium Plus",
-      "url": "https://www.cars.com/vehicledetail/c6375e81-816f-42d9-9593-1c18e3a255c1/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790937594",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790937594",
         "cars.com": "https://www.cars.com/vehicledetail/c6375e81-816f-42d9-9593-1c18e3a255c1/"
@@ -1061,29 +1053,27 @@
     "WAUH3DGY0PA029321": {
       "body_style": "Sedan",
       "city": "Norwalk",
-      "dealer": "McKenna Preowned Center",
-      "distance_mi": 1889.0,
+      "dealer": "McKenna Audi",
+      "distance_mi": 1889.02,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 23455,
       "model": "S3",
       "price": 35718,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "CA",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/45d9c65b-1346-43d5-ac0b-86c439b98461/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/782662083",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/782662083",
         "cars.com": "https://www.cars.com/vehicledetail/45d9c65b-1346-43d5-ac0b-86c439b98461/"
@@ -1112,7 +1102,7 @@
         "cars.com"
       ],
       "state": "ID",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/dadbc160-c9ca-43d8-b679-b48063210160/",
       "urls": {
@@ -1132,7 +1122,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 25381,
       "model": "S3",
@@ -1154,29 +1144,27 @@
     "WAUH3DGY0RA014918": {
       "body_style": "Sedan",
       "city": "Sumner",
-      "dealer": "Rairdon's Honda of Sumner",
-      "distance_mi": 1959.0,
+      "dealer": "Honda of Sumner",
+      "distance_mi": 1958.38,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 26688,
       "model": "S3",
       "price": 37873,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "WA",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/c982ae87-164c-4ef2-9213-0ea9e03a016b/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/786141128",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/786141128",
         "cars.com": "https://www.cars.com/vehicledetail/c982ae87-164c-4ef2-9213-0ea9e03a016b/"
@@ -1187,28 +1175,26 @@
     "WAUH3DGY1PA030767": {
       "body_style": "Sedan",
       "city": "Longmont",
-      "dealer": "Booth Motors",
-      "distance_mi": 1092.0,
+      "dealer": "Booth Motors, LLC",
+      "distance_mi": 1091.92,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 31237,
       "model": "S3",
       "price": 31913,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "CO",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/2d1f944f-0052-442d-9e06-253d1bad4503/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/767465093",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/767465093",
         "cars.com": "https://www.cars.com/vehicledetail/2d1f944f-0052-442d-9e06-253d1bad4503/"
@@ -1227,7 +1213,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 24082,
       "model": "S3",
@@ -1249,29 +1235,27 @@
     "WAUH3DGY1PA131937": {
       "body_style": "Sedan",
       "city": "Santa Ana",
-      "dealer": "California Motors Direct",
-      "distance_mi": 1880.0,
+      "dealer": "California Motors Direct - Santa Ana",
+      "distance_mi": 1879.38,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 20943,
       "model": "S3",
       "price": 34985,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "CA",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/fd765f68-44bf-47ac-a64f-bcb5824ff199/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/787484821",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/787484821",
         "cars.com": "https://www.cars.com/vehicledetail/fd765f68-44bf-47ac-a64f-bcb5824ff199/"
@@ -1282,28 +1266,26 @@
     "WAUH3DGY2NA057764": {
       "body_style": "Sedan",
       "city": "Sanford",
-      "dealer": "JT Auto Group",
-      "distance_mi": 389.0,
+      "dealer": "JT Autogroup",
+      "distance_mi": 388.38,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 34111,
       "model": "S3",
       "price": 35597,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "NC",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/6afb0a20-92b0-49d4-8fc4-ae507ebb21c1/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/783192388",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/783192388",
         "cars.com": "https://www.cars.com/vehicledetail/6afb0a20-92b0-49d4-8fc4-ae507ebb21c1/"
@@ -1321,7 +1303,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 33553,
       "model": "S3",
@@ -1361,7 +1343,7 @@
         "cars.com"
       ],
       "state": "IL",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/53b963b3-118a-476e-890b-a581adc75288/",
       "urls": {
@@ -1374,28 +1356,26 @@
       "body_style": "Sedan",
       "city": "Pembroke Pines",
       "dealer": "Audi Pembroke Pines",
-      "distance_mi": 940.0,
+      "distance_mi": 938.78,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 22406,
       "model": "S3",
       "price": 34297,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "FL",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/5a95d905-dad5-4dfb-aa88-5137bf10c162/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/785241527",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/785241527",
         "cars.com": "https://www.cars.com/vehicledetail/5a95d905-dad5-4dfb-aa88-5137bf10c162/"
@@ -1407,28 +1387,26 @@
       "body_style": "Sedan",
       "city": "Owings Mills",
       "dealer": "Porsche Owings Mills",
-      "distance_mi": 412.0,
+      "distance_mi": 411.84,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 26987,
       "model": "S3",
       "price": 37687,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "MD",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/ce006ae8-d9ed-40da-ac7a-33de5a959869/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/788887202",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/788887202",
         "cars.com": "https://www.cars.com/vehicledetail/ce006ae8-d9ed-40da-ac7a-33de5a959869/"
@@ -1440,28 +1418,26 @@
       "body_style": "Sedan",
       "city": "Plano",
       "dealer": "Auto Merchants Inc.",
-      "distance_mi": 806.0,
+      "distance_mi": 805.62,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 24328,
       "model": "S3",
       "price": 33499,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "TX",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/1d3df659-ad91-419f-bd1c-214708a4e9e1/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/784719502",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/784719502",
         "cars.com": "https://www.cars.com/vehicledetail/1d3df659-ad91-419f-bd1c-214708a4e9e1/"
@@ -1490,7 +1466,7 @@
         "cars.com"
       ],
       "state": "TX",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/64663f30-13ca-44a3-bb2c-0321cbb19f99/",
       "urls": {
@@ -1503,27 +1479,25 @@
       "body_style": "Sedan",
       "city": "Raleigh",
       "dealer": "Atlas Motor Co.",
-      "distance_mi": 397.0,
+      "distance_mi": 396.38,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 27542,
       "model": "S3",
       "price": 36995,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "NC",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/e4e0e54b-7586-4de4-8237-72ff15af5bb2/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/788504063",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/788504063",
         "cars.com": "https://www.cars.com/vehicledetail/e4e0e54b-7586-4de4-8237-72ff15af5bb2/"
@@ -1542,7 +1516,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 30029,
       "model": "S3",
@@ -1564,29 +1538,27 @@
     "WAUH3DGY4RA020673": {
       "body_style": "Sedan",
       "city": "Sacramento",
-      "dealer": "Niello BMW MINI",
-      "distance_mi": 1972.0,
+      "dealer": "NielloGO",
+      "distance_mi": 1973.37,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 25707,
       "model": "S3",
       "price": 35995,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "CA",
       "status": "available",
-      "trim": "2.0T quattro Premium",
-      "url": "https://www.cars.com/vehicledetail/45c8a24f-a913-47fb-a483-5f596271073b/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/784366818",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/784366818",
         "cars.com": "https://www.cars.com/vehicledetail/45c8a24f-a913-47fb-a483-5f596271073b/"
@@ -1598,28 +1570,26 @@
       "body_style": "Sedan",
       "city": "Conroe",
       "dealer": "Gullo Mazda",
-      "distance_mi": 873.0,
+      "distance_mi": 872.18,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 34130,
       "model": "S3",
       "price": 37203,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "TX",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/d4de5d6d-6ebf-4a4b-9989-afdb2c629b08/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/787249275",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/787249275",
         "cars.com": "https://www.cars.com/vehicledetail/d4de5d6d-6ebf-4a4b-9989-afdb2c629b08/"
@@ -1630,30 +1600,28 @@
     "WAUH3DGY4RA036422": {
       "body_style": "Sedan",
       "city": "San Juan",
-      "dealer": "CAG Audi San Juan",
-      "distance_mi": 1195.0,
+      "dealer": "Audi San Juan",
+      "distance_mi": 1193.98,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
+        "certified",
         "clean_title",
         "no_accidents",
-        "personal_use",
-        "certified",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 17750,
       "model": "S3",
       "price": 37723,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "TX",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/4051dc2a-b4f8-48a6-be39-ced31a197301/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/786173282",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/786173282",
         "cars.com": "https://www.cars.com/vehicledetail/4051dc2a-b4f8-48a6-be39-ced31a197301/"
@@ -1672,7 +1640,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 42650,
       "model": "S3",
@@ -1702,7 +1670,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 39078,
       "model": "S3",
@@ -1725,27 +1693,25 @@
       "body_style": "Sedan",
       "city": "Champaign",
       "dealer": "Mercedes-Benz of Champaign",
-      "distance_mi": 211.0,
+      "distance_mi": 210.6,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 26648,
       "model": "S3",
       "price": 36402,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "IL",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/2c40f37f-0ea4-4162-94a0-3251f9c5ab6e/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790417536",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790417536",
         "cars.com": "https://www.cars.com/vehicledetail/2c40f37f-0ea4-4162-94a0-3251f9c5ab6e/"
@@ -1756,28 +1722,26 @@
     "WAUH3DGY6PA041215": {
       "body_style": "Sedan",
       "city": "Highland Park",
-      "dealer": "Gravity Autos Chicago",
-      "distance_mi": 274.0,
+      "dealer": "GRAVITY AUTOS of CHICAGO",
+      "distance_mi": 273.33,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 26964,
       "model": "S3",
-      "price": 35901,
-      "source": "cars.com",
+      "price": 35902,
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "IL",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/36f8b74b-7ed7-400d-84e1-12630e0f6fc2/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790375798",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790375798",
         "cars.com": "https://www.cars.com/vehicledetail/36f8b74b-7ed7-400d-84e1-12630e0f6fc2/"
@@ -1789,27 +1753,25 @@
       "body_style": "Sedan",
       "city": "Orlando",
       "dealer": "Universal Hyundai",
-      "distance_mi": 767.0,
+      "distance_mi": 763.58,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 19600,
       "model": "S3",
       "price": 37056,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "FL",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/84a9ce8f-d7a9-4acd-a136-120928f9bf0b/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/789771897",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/789771897",
         "cars.com": "https://www.cars.com/vehicledetail/84a9ce8f-d7a9-4acd-a136-120928f9bf0b/"
@@ -1828,7 +1790,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 29510,
       "model": "S3",
@@ -1850,29 +1812,27 @@
     "WAUH3DGY7PA033396": {
       "body_style": "Sedan",
       "city": "East Hartford",
-      "dealer": "Gengras Chrysler Dodge Jeep RAM East Hartford",
-      "distance_mi": 648.0,
+      "dealer": "Gengras Chrysler Dodge Jeep Ram East Hartford",
+      "distance_mi": 647.47,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 43500,
       "model": "S3",
       "price": 34390,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "CT",
       "status": "available",
-      "trim": "2.0T Premium Plus",
-      "url": "https://www.cars.com/vehicledetail/c9ac41f6-70a4-4842-8245-b9fc821db30e/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/785379843",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/785379843",
         "cars.com": "https://www.cars.com/vehicledetail/c9ac41f6-70a4-4842-8245-b9fc821db30e/"
@@ -1883,29 +1843,27 @@
     "WAUH3DGY7PA064082": {
       "body_style": "Sedan",
       "city": "Naugatuck",
-      "dealer": "J & M Automotive",
-      "distance_mi": 624.0,
+      "dealer": "J&M Automotive",
+      "distance_mi": 623.68,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 42913,
       "model": "S3",
       "price": 35793,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "CT",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/1d4cdb48-76fd-4c2e-bc87-f35b8380a991/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/787364309",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/787364309",
         "cars.com": "https://www.cars.com/vehicledetail/1d4cdb48-76fd-4c2e-bc87-f35b8380a991/"
@@ -1924,7 +1882,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 30009,
       "model": "S3",
@@ -1947,27 +1905,25 @@
       "body_style": "Sedan",
       "city": "Fishers",
       "dealer": "Alderman Automotive",
-      "distance_mi": 99.0,
+      "distance_mi": 98.53,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 26049,
       "model": "S3",
       "price": 36713,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "IN",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/9f293787-91b7-4115-9d12-cad1603d1229/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/785858347",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/785858347",
         "cars.com": "https://www.cars.com/vehicledetail/9f293787-91b7-4115-9d12-cad1603d1229/"
@@ -1986,7 +1942,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 16622,
       "model": "S3",
@@ -2015,7 +1971,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 23327,
       "model": "S3",
@@ -2038,28 +1994,26 @@
       "body_style": "Sedan",
       "city": "Raleigh",
       "dealer": "Audi Raleigh",
-      "distance_mi": 397.0,
+      "distance_mi": 395.85,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 28542,
       "model": "S3",
       "price": 34997,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "NC",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/6090d115-034c-4b9c-abca-2c194d3c1066/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/775624925",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/775624925",
         "cars.com": "https://www.cars.com/vehicledetail/6090d115-034c-4b9c-abca-2c194d3c1066/"
@@ -2077,7 +2031,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 34646,
       "model": "S3",
@@ -2100,28 +2054,26 @@
       "body_style": "Sedan",
       "city": "Murrieta",
       "dealer": "Volkswagen of Murrieta",
-      "distance_mi": 1849.0,
+      "distance_mi": 1848.91,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 15323,
       "model": "S3",
       "price": 36673,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "CA",
       "status": "available",
-      "trim": "2.0T Premium Plus",
-      "url": "https://www.cars.com/vehicledetail/4cf7fddb-990e-475e-827b-d76f2cfc0f55/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/791607342",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/791607342",
         "cars.com": "https://www.cars.com/vehicledetail/4cf7fddb-990e-475e-827b-d76f2cfc0f55/"
@@ -2133,28 +2085,26 @@
       "body_style": "Sedan",
       "city": "Rochester",
       "dealer": "Rochester Volkswagen",
-      "distance_mi": 757.0,
+      "distance_mi": 756.44,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 40864,
       "model": "S3",
       "price": 36123,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "NH",
       "status": "available",
-      "trim": "2.0T Premium Plus",
-      "url": "https://www.cars.com/vehicledetail/bd9964c7-70e2-4f27-a2d6-919142844043/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790742941",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790742941",
         "cars.com": "https://www.cars.com/vehicledetail/bd9964c7-70e2-4f27-a2d6-919142844043/"
@@ -2183,7 +2133,7 @@
         "cars.com"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "2.0T quattro Premium",
       "url": "https://www.cars.com/vehicledetail/24065c8b-7057-48d9-8af7-2fd3bf1207ed/",
       "urls": {
@@ -2196,28 +2146,26 @@
       "body_style": "Sedan",
       "city": "Northbrook",
       "dealer": "carneed",
-      "distance_mi": 267.0,
+      "distance_mi": 271.16,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 9512,
       "model": "S3",
       "price": 37370,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "IL",
       "status": "available",
-      "trim": "2.0T quattro Premium",
-      "url": "https://www.cars.com/vehicledetail/6103335b-2e54-463e-ac65-f0da7a7beabf/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/778145625",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/778145625",
         "cars.com": "https://www.cars.com/vehicledetail/6103335b-2e54-463e-ac65-f0da7a7beabf/"
@@ -2229,27 +2177,25 @@
       "body_style": "Sedan",
       "city": "Hamburg",
       "dealer": "Superior Auto Sales",
-      "distance_mi": 385.0,
+      "distance_mi": 384.69,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 27229,
       "model": "S3",
       "price": 37927,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "NY",
       "status": "available",
-      "trim": "2.0T Prestige",
-      "url": "https://www.cars.com/vehicledetail/87f8b171-cb53-4e96-ad62-10cf0b09cee8/",
+      "trim": "Prestige",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/788611677",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/788611677",
         "cars.com": "https://www.cars.com/vehicledetail/87f8b171-cb53-4e96-ad62-10cf0b09cee8/"
@@ -2268,7 +2214,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 30815,
       "model": "S3",
@@ -2291,27 +2237,25 @@
       "body_style": "Sedan",
       "city": "Wayzata",
       "dealer": "Walser Nissan Wayzata",
-      "distance_mi": 611.0,
+      "distance_mi": 610.41,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 39547,
       "model": "S3",
       "price": 36249,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "MN",
       "status": "available",
       "trim": "Prestige",
-      "url": "https://www.cars.com/vehicledetail/2c991432-fdf8-4a1e-9927-8f520b79c0fa/",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790796017",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790796017",
         "cars.com": "https://www.cars.com/vehicledetail/2c991432-fdf8-4a1e-9927-8f520b79c0fa/"
@@ -2330,7 +2274,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 35042,
       "model": "S3",
@@ -2351,30 +2295,28 @@
     },
     "WAUJ3DGY2PA076089": {
       "body_style": "Sedan",
-      "city": "Attleboro",
+      "city": "South Attleboro",
       "dealer": "Courtesy Mitsubishi",
-      "distance_mi": 714.0,
+      "distance_mi": 714.01,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 39122,
       "model": "S3",
       "price": 36997,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "MA",
       "status": "available",
-      "trim": "Prestige TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/7eedfce4-3ac3-43c1-9d0a-f1b40993c086/",
+      "trim": "Prestige",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/785310718",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/785310718",
         "cars.com": "https://www.cars.com/vehicledetail/7eedfce4-3ac3-43c1-9d0a-f1b40993c086/"
@@ -2393,7 +2335,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 33408,
       "model": "S3",
@@ -2423,7 +2365,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 35656,
       "model": "S3",
@@ -2453,7 +2395,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 32100,
       "model": "S3",
@@ -2475,28 +2417,26 @@
     "WAUJ3DGY5NA000590": {
       "body_style": "Sedan",
       "city": "Tigard",
-      "dealer": "Luxury Sport Auto",
-      "distance_mi": 1983.0,
+      "dealer": "Luxury Sport Autos",
+      "distance_mi": 1982.66,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 31689,
       "model": "S3",
       "price": 36377,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "OR",
       "status": "available",
-      "trim": "Prestige TFSI quattro S tronic",
-      "url": "https://www.cars.com/vehicledetail/9b7efa7a-92cc-47d0-ad72-1c0fe83c9141/",
+      "trim": "Prestige",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/785858859",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/785858859",
         "cars.com": "https://www.cars.com/vehicledetail/9b7efa7a-92cc-47d0-ad72-1c0fe83c9141/"
@@ -2515,7 +2455,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T21:23:07+00:00",
+      "last_seen": "2026-09-22T22:48:20+00:00",
       "make": "Audi",
       "mileage": 29968,
       "model": "S3",
@@ -2536,5 +2476,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-09-22T21:23:07+00:00"
+  "updated_at": "2026-09-22T22:48:20+00:00"
 }
