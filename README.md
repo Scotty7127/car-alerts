@@ -216,13 +216,12 @@ certainly not your config. Measured on 2026-09-22:
 | This repo, minimal probe workflow, 6 slots | **0 runs** |
 
 The minimal probe — no dispatch inputs, no concurrency group, no permissions
-block — failed identically, which rules the config out. GitHub throttles cron
-activation on freshly created repositories; it generally starts working within
-a day without intervention.
+block — failed identically, which ruled the config out.
 
-`.github/workflows/cron-probe.yml` is a temporary canary for exactly this. Once
-you see it appear under scheduled runs, registration is live — **delete the
-probe at that point**, or it will run every 5 minutes forever.
+**Resolved on its own at ~21:08 UTC, 5.5 hours after the repo was created**,
+with no change to the workflow. GitHub throttles cron activation on freshly
+created repositories. If you hit this on a new repo: the config is fine, wait
+it out, and run the bot manually (or from a local cron) in the meantime.
 
 If you need it working sooner, the options are: add a `gh workflow run` step to
 a workflow in an *established* repo that already fires on schedule; drive
