@@ -6,7 +6,7 @@ on:
     # best-effort and the top of the hour is its most congested slot, so jobs
     # queued there are delayed the hardest. An off-peak minute typically starts
     # much closer to on time. Still once an hour either way.
-    - cron: "*/5 * * * *"   # TEMPORARY diagnostic - restored to hourly shortly
+    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       mode:
