@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import json
 
+import pytest
+
 from carbot import state as state_mod
 from carbot.main import _notifications_for, diff_listings
 from carbot.notify import build_new_listing, build_price_drop
@@ -166,3 +168,47 @@ class TestSeedAndStatePersistence:
 
     def test_missing_state_file_starts_empty(self, tmp_path):
         assert state_mod.load(tmp_path / "nope.json") == {}
+
+
+class TestCircuitBreaker:
+    """A hard-blocked host must not be hit again for the rest of the run."""
+
+    def test_blocked_host_short_circuits_without_a_second_request(self, monkeypatch):
+        from carbot.http import BlockedError, Fetcher
+
+        fetcher = Fetcher(delay_range=(0, 0), max_retries=1)
+        calls: list[str] = []
+
+        class FakeResp:
+            status_code = 403
+            headers: dict[str, str] = {}
+
+        def fake_get(url, **kwargs):
+            calls.append(url)
+            return FakeResp()
+
+        monkeypatch.setattr(fetcher._session, "get", fake_get)
+        monkeypatch.setattr("time.sleep", lambda *_: None)
+
+        with pytest.raises(BlockedError):
+            fetcher.get("https://www.example.com/a")
+        first_round = len(calls)
+        assert first_round > 0
+
+        with pytest.raises(BlockedError, match="already hard-blocked"):
+            fetcher.get("https://www.example.com/b")
+        assert len(calls) == first_round, "must not touch the network again"
+
+    def test_a_different_host_is_unaffected(self, monkeypatch):
+        from carbot.http import BlockedError, Fetcher
+
+        fetcher = Fetcher(delay_range=(0, 0), max_retries=1)
+        fetcher._blocked_hosts.add("www.blocked.com")
+
+        class OkResp:
+            status_code = 200
+            headers = {"content-type": "text/html"}
+
+        monkeypatch.setattr(fetcher._session, "get", lambda url, **kw: OkResp())
+        monkeypatch.setattr("time.sleep", lambda *_: None)
+        assert fetcher.get("https://www.other.com/x").status_code == 200

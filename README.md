@@ -20,7 +20,7 @@ each one, verified against live traffic:
 
 | Source | Status | How it works |
 |---|---|---|
-| **Cars.com** | ✅ Working, primary | Server-rendered HTML. All filters (incl. accident/title/fleet) pushed server-side. |
+| **Cars.com** | ⚠️ Works, but intermittent from CI | Server-rendered HTML, all filters pushed server-side. Cloudflare refuses GitHub Actions IPs some runs — see below. |
 | **Autotrader** | ✅ Working, better than expected | Private JSON API the SRP itself calls. Full history flags. |
 | **CarMax** | ✅ Working | Private JSON API. Best history data of the three — real fleet/rental flags. |
 | **CarGurus** | ❌ Skipped by design | Remix app, listings render client-side. Logs a warning and moves on. |
@@ -48,6 +48,44 @@ interchangeable — `chrome`, `chrome136`, `chrome145` and `chrome150` get real
 responses, while `chrome131`, `chrome133a`, `chrome142`, `chrome146`, `edge`
 and `safari180` are challenged. The working set is pinned in
 `IMPERSONATE_PROFILES`.
+
+### Cars.com from GitHub Actions is intermittent — by design of their WAF
+
+Measured across consecutive CI runs, same code, minutes apart:
+
+| Run | cars.com result |
+|---|---|
+| seed | 0 listings — all 3 targets refused |
+| dry-run (after adding session warm-up) | **18 listings** — S4 and S5 came through |
+| dry-run (retries raised 3→5) | 0 listings — all refused again |
+
+TLS impersonation is not the issue; IP reputation is. Cloudflare scores GitHub
+Actions' datacenter ranges as hostile, and whether a given run gets through
+depends on which runner IP it lands on and how recently that range was used.
+Raising retries made it **worse** — more requests against a hostile endpoint
+got the whole range refused.
+
+What the bot does about it:
+
+- **Warm-up.** It lands on `https://www.cars.com/` first to pick up clearance
+  cookies, then hits the SRP with a `Referer`, so the request looks like a
+  second page view rather than a cold-start scrape. This is what took one run
+  from 0 to 18 listings.
+- **Circuit breaker.** Once a host hard-blocks, that host is skipped for the
+  rest of the run rather than retried once per target. Hammering does not
+  change its mind, wastes runtime, and worsens the block for next time.
+- **Modest retries (3).** Tuned down from 5 after measuring that more was worse.
+
+**Why this is survivable:** Autotrader is reliable from CI and returns ~73
+listings against cars.com's ~18, with heavy overlap. Dedupe is by VIN, so a
+car that cars.com would have surfaced is usually caught via Autotrader in the
+same run — and if not, on one of the next twelve runs that day. You are
+running this every 2 hours, not once.
+
+If you want cars.com to be reliable rather than best-effort, the only real fix
+is a non-datacenter egress IP: run the scan on a home machine via `cron`, or
+put a residential proxy in front of it. Both are more moving parts than this
+brief asked for, so the bot degrades gracefully instead.
 
 ### How CarMax works (the `uri` trick)
 
@@ -153,10 +191,9 @@ python -m carbot.main
 | `--state PATH` | Use a different state file. |
 | `-v` | Debug logging. |
 
-> **Note:** cars.com rate-limits repeated runs from one IP. Back-to-back local
-> dry runs will start returning `403`; the bot backs off, logs, and skips
-> rather than crashing. Wait a few minutes. This does not affect the 2-hourly
-> cron, which makes ~9 requests per run from a fresh runner IP.
+> **Note:** cars.com rate-limits repeated runs from one IP. Back-to-back dry
+> runs — local or in CI — will start returning `403`; the bot backs off, logs,
+> and skips rather than crashing. Wait a few minutes between manual runs.
 
 ---
 

@@ -51,6 +51,7 @@ class Fetcher:
         self._session = curl_requests.Session(impersonate=self.impersonate)
         self._last_request_at: float = 0.0
         self._warmed: set[str] = set()
+        self._blocked_hosts: set[str] = set()
 
     # -- internals ---------------------------------------------------------
 
@@ -109,7 +110,18 @@ class Fetcher:
             self._last_request_at = time.monotonic()
 
     def get(self, url: str, headers: dict[str, str] | None = None) -> Any:
-        """GET with backoff. Raises BlockedError on a hard block."""
+        """GET with backoff. Raises BlockedError on a hard block.
+
+        Once a host has hard-blocked us this run, stop calling it. Continuing
+        to hammer a site that just refused us five times in a row does not
+        change its mind, wastes minutes of runtime, and makes the block worse
+        for the next run. The circuit stays open for the life of this Fetcher,
+        i.e. for one scan.
+        """
+        host = _host(url)
+        if host in self._blocked_hosts:
+            raise BlockedError(f"{host} already hard-blocked this run - not retrying")
+
         self.warm_up(url)
         last_status: int | None = None
         for attempt in range(1, self.max_retries + 1):
@@ -145,7 +157,11 @@ class Fetcher:
             log.warning("  HTTP %s from %s", resp.status_code, _host(url))
             break
 
-        raise BlockedError(f"{_host(url)} returned {last_status} after {self.max_retries} tries")
+        self._blocked_hosts.add(host)
+        raise BlockedError(
+            f"{host} returned {last_status} after {self.max_retries} tries; "
+            "skipping this host for the rest of the run"
+        )
 
     def rotate_fingerprint(self) -> None:
         """Pick a new impersonation profile and rebuild the session with it."""
