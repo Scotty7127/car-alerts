@@ -10,7 +10,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 44789,
       "model": "S4",
@@ -39,7 +39,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 27526,
       "model": "S5",
@@ -62,12 +62,12 @@
       "body_style": "4D Sedan",
       "city": "Palmdale",
       "dealer": "CarMax Palmdale",
-      "distance_mi": 345.2,
+      "distance_mi": 808.3,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 21120,
       "model": "S4",
@@ -90,10 +90,10 @@
       "body_style": "4D Sedan",
       "city": "Marysville",
       "dealer": "CarMax Tulalip",
-      "distance_mi": 1136.2,
+      "distance_mi": 190.4,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 21060,
       "model": "S4",
@@ -122,7 +122,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 40267,
       "model": "S4",
@@ -152,7 +152,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 40530,
       "model": "S4",
@@ -182,7 +182,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 44796,
       "model": "S4",
@@ -211,7 +211,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 39606,
       "model": "S4",
@@ -240,7 +240,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 44809,
       "model": "S4",
@@ -259,6 +259,35 @@
       "vin": "WAUC4AF48LA051307",
       "year": 2020
     },
+    "WAUC4CF50PA019428": {
+      "body_style": "Hatchback",
+      "city": "Palmetto Bay",
+      "dealer": "Hgreg Nissan Kendall",
+      "distance_mi": 966.9,
+      "first_seen": "2026-09-22T18:33:12+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T18:33:12+00:00",
+      "make": "Audi",
+      "mileage": 43722,
+      "model": "S5",
+      "price": 38499,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "FL",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790635901",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790635901"
+      },
+      "vin": "WAUC4CF50PA019428",
+      "year": 2023
+    },
     "WAUC4CF50PA045043": {
       "body_style": "Hatchback",
       "city": "Streetsboro",
@@ -270,7 +299,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 35939,
       "model": "S5",
@@ -299,7 +328,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 37125,
       "model": "S5",
@@ -329,7 +358,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 42623,
       "model": "S3",
@@ -359,7 +388,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 39263,
       "model": "S3",
@@ -388,7 +417,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 31114,
       "model": "S3",
@@ -417,7 +446,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 30000,
       "model": "S3",
@@ -447,7 +476,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 36903,
       "model": "S3",
@@ -477,7 +506,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 22735,
       "model": "S3",
@@ -507,7 +536,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 38227,
       "model": "S3",
@@ -537,7 +566,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 44798,
       "model": "S3",
@@ -567,7 +596,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 37289,
       "model": "S3",
@@ -596,7 +625,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 40442,
       "model": "S3",
@@ -626,7 +655,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 23455,
       "model": "S3",
@@ -656,7 +685,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 25381,
       "model": "S3",
@@ -686,7 +715,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 26688,
       "model": "S3",
@@ -715,7 +744,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 31237,
       "model": "S3",
@@ -745,7 +774,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 24082,
       "model": "S3",
@@ -775,7 +804,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 20943,
       "model": "S3",
@@ -804,7 +833,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 34111,
       "model": "S3",
@@ -833,7 +862,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 33553,
       "model": "S3",
@@ -863,7 +892,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 22406,
       "model": "S3",
@@ -893,7 +922,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 26987,
       "model": "S3",
@@ -923,7 +952,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 24328,
       "model": "S3",
@@ -952,7 +981,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 27542,
       "model": "S3",
@@ -971,6 +1000,36 @@
       "vin": "WAUH3DGY4PA045392",
       "year": 2023
     },
+    "WAUH3DGY4PA148599": {
+      "body_style": "Sedan",
+      "city": "East Windsor",
+      "dealer": "North Bay Imports",
+      "distance_mi": 651.72,
+      "first_seen": "2026-09-22T18:33:12+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T18:33:12+00:00",
+      "make": "Audi",
+      "mileage": 30029,
+      "model": "S3",
+      "price": 36555,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "CT",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/791592095",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/791592095"
+      },
+      "vin": "WAUH3DGY4PA148599",
+      "year": 2023
+    },
     "WAUH3DGY4RA020673": {
       "body_style": "Sedan",
       "city": "Sacramento",
@@ -982,7 +1041,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 25707,
       "model": "S3",
@@ -1012,7 +1071,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 34130,
       "model": "S3",
@@ -1043,7 +1102,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 17750,
       "model": "S3",
@@ -1073,7 +1132,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 42650,
       "model": "S3",
@@ -1103,7 +1162,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 39078,
       "model": "S3",
@@ -1132,7 +1191,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 26648,
       "model": "S3",
@@ -1161,7 +1220,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 26964,
       "model": "S3",
@@ -1190,7 +1249,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 19600,
       "model": "S3",
@@ -1220,7 +1279,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 29510,
       "model": "S3",
@@ -1250,7 +1309,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 43500,
       "model": "S3",
@@ -1280,7 +1339,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 42913,
       "model": "S3",
@@ -1310,7 +1369,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 30009,
       "model": "S3",
@@ -1339,7 +1398,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 26049,
       "model": "S3",
@@ -1369,7 +1428,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 16622,
       "model": "S3",
@@ -1398,7 +1457,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 23327,
       "model": "S3",
@@ -1428,7 +1487,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 28542,
       "model": "S3",
@@ -1457,7 +1516,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 34646,
       "model": "S3",
@@ -1487,7 +1546,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 15323,
       "model": "S3",
@@ -1517,7 +1576,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 40864,
       "model": "S3",
@@ -1547,7 +1606,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 9512,
       "model": "S3",
@@ -1576,7 +1635,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 27229,
       "model": "S3",
@@ -1606,7 +1665,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 30815,
       "model": "S3",
@@ -1635,7 +1694,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 39547,
       "model": "S3",
@@ -1665,7 +1724,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 35042,
       "model": "S3",
@@ -1695,7 +1754,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 39122,
       "model": "S3",
@@ -1725,7 +1784,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 33408,
       "model": "S3",
@@ -1755,7 +1814,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 35656,
       "model": "S3",
@@ -1785,7 +1844,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 32100,
       "model": "S3",
@@ -1814,7 +1873,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 31689,
       "model": "S3",
@@ -1844,7 +1903,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T16:34:21+00:00",
+      "last_seen": "2026-09-22T18:33:12+00:00",
       "make": "Audi",
       "mileage": 29968,
       "model": "S3",
@@ -1865,5 +1924,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-09-22T16:34:21+00:00"
+  "updated_at": "2026-09-22T18:33:12+00:00"
 }
