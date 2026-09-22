@@ -2,9 +2,11 @@ name: Car scan
 
 on:
   schedule:
-    # Hourly, on the hour (UTC). GitHub's scheduler is best-effort and can run
-    # well over ten minutes late under load - that is fine for this.
-    - cron: "0 * * * *"
+    # Hourly at :17 (UTC), deliberately not :00. GitHub's scheduler is
+    # best-effort and the top of the hour is its most congested slot, so jobs
+    # queued there are delayed the hardest. An off-peak minute typically starts
+    # much closer to on time. Still once an hour either way.
+    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       mode:
