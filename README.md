@@ -201,6 +201,36 @@ about genuinely new cars. The cron starts working on its own after that.
 
 ---
 
+## Known issue: the schedule does not fire on a brand-new repo
+
+If you have just created this repo and the cron never runs, it is almost
+certainly not your config. Measured on 2026-09-22:
+
+| Check | Result |
+|---|---|
+| Workflow state | `active`, on the default branch, valid cron |
+| Manual `workflow_dispatch` | works every time |
+| GitHub status | all operational, no incidents |
+| Another repo on the same account (established) | scheduled runs firing normally |
+| This repo, `*/5` cron, 5 slots | **0 runs** |
+| This repo, minimal probe workflow, 6 slots | **0 runs** |
+
+The minimal probe — no dispatch inputs, no concurrency group, no permissions
+block — failed identically, which rules the config out. GitHub throttles cron
+activation on freshly created repositories; it generally starts working within
+a day without intervention.
+
+`.github/workflows/cron-probe.yml` is a temporary canary for exactly this. Once
+you see it appear under scheduled runs, registration is live — **delete the
+probe at that point**, or it will run every 5 minutes forever.
+
+If you need it working sooner, the options are: add a `gh workflow run` step to
+a workflow in an *established* repo that already fires on schedule; drive
+`workflow_dispatch` from an external cron service; or run `python -m
+carbot.main` from a local `cron`/`launchd` job. The local option has a real
+side benefit — a residential IP is not blocked by cars.com the way GitHub
+Actions runners are, so that source becomes reliable rather than best-effort.
+
 ## Running it locally
 
 ```bash
