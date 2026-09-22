@@ -273,3 +273,47 @@ class TestJsonChallengeRecovery:
         # chrome136/133a/146/119 measured 0/3 against the JSON APIs.
         assert set(IMPERSONATE_PROFILES).isdisjoint(
             {"chrome136", "chrome133a", "chrome146", "chrome119", "chrome120"})
+
+
+class TestClickThroughAndActions:
+    """Tapping a notification must land on the actual listing page."""
+
+    def test_click_is_the_listing_url_for_every_source(self):
+        for url in ("https://www.cars.com/vehicledetail/abc/",
+                    "https://www.autotrader.com/cars-for-sale/vehicle/791111001",
+                    "https://www.carmax.com/car/28511769"):
+            assert build_new_listing(make_listing(url=url)).click == url
+
+    def test_price_drop_also_links_to_the_listing(self):
+        listing = make_listing(url="https://www.carmax.com/car/123")
+        note = build_price_drop(listing, 38_000, 36_000)
+        assert note.click == "https://www.carmax.com/car/123"
+
+    def test_single_source_listing_gets_no_redundant_buttons(self):
+        assert build_new_listing(make_listing()).actions == []
+
+    def test_two_source_listing_gets_a_button_per_site(self):
+        listing = make_listing()
+        listing.urls = {"cars.com": "https://cars.com/x",
+                        "carmax": "https://www.carmax.com/car/1"}
+        note = build_new_listing(listing)
+        assert [label for label, _ in note.actions] == ["CarMax", "Cars.com"]
+
+    def test_actions_header_is_valid_ntfy_syntax(self):
+        listing = make_listing()
+        listing.urls = {"cars.com": "https://cars.com/x",
+                        "autotrader": "https://autotrader.com/y"}
+        header = build_new_listing(listing).actions_header()
+        assert header == (
+            "view, Autotrader, https://autotrader.com/y, clear=true; "
+            "view, Cars.com, https://cars.com/x, clear=true")
+
+    def test_actions_are_capped_at_three(self):
+        listing = make_listing()
+        listing.urls = {f"src{i}": f"https://example.com/{i}" for i in range(5)}
+        assert len(build_new_listing(listing).actions_header().split(";")) == 3
+
+    def test_blank_urls_are_not_turned_into_buttons(self):
+        listing = make_listing()
+        listing.urls = {"cars.com": "https://cars.com/x", "carmax": ""}
+        assert [label for label, _ in build_new_listing(listing).actions] == ["Cars.com"]

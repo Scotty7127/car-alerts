@@ -49,43 +49,71 @@ responses, while `chrome131`, `chrome133a`, `chrome142`, `chrome146`, `edge`
 and `safari180` are challenged. The working set is pinned in
 `IMPERSONATE_PROFILES`.
 
-### Cars.com from GitHub Actions is intermittent — by design of their WAF
+### Two different failure modes, often confused
 
-Measured across consecutive CI runs, same code, minutes apart:
+Earlier runs looked like one flaky problem. They were two, and only one is
+about IP reputation.
 
-| Run | cars.com result |
-|---|---|
-| seed | 0 listings — all 3 targets refused |
-| dry-run (after adding session warm-up) | **18 listings** — S4 and S5 came through |
-| dry-run (retries raised 3→5) | 0 listings — all refused again |
+**1. A bad impersonation profile — fixed.** A bot-challenge page arrives as
+`200 text/html`, *not* an error status, so nothing retried it and the source
+just returned zero listings for the run. `chrome136` was in the profile list
+on the strength of a single lucky trial. Re-measured over 3 trials each:
 
-TLS impersonation is not the issue; IP reputation is. Cloudflare scores GitHub
-Actions' datacenter ranges as hostile, and whether a given run gets through
-depends on which runner IP it lands on and how recently that range was used.
-Raising retries made it **worse** — more requests against a hostile endpoint
-got the whole range refused.
+| profile | Autotrader | CarMax | | profile | Autotrader | CarMax |
+|---|---|---|---|---|---|---|
+| `chrome` | 3/3 | 3/3 | | `chrome136` | 0/3 | 0/3 |
+| `chrome142` | 3/3 | 3/3 | | `chrome133a` | 0/3 | 0/3 |
+| `chrome145` | 3/3 | 3/3 | | `chrome146` | 0/3 | 0/3 |
+| `chrome150` | 3/3 | 3/3 | | `chrome120` | 3/3 | 0/3 |
+
+So roughly one run in four silently lost Autotrader entirely. Two fixes: the
+list is pinned to the four verified-good profiles, and `get_json()` now treats
+an HTML body as a soft block and retries under a fresh fingerprint. That
+self-healing is the important half — profile behaviour varies by IP and over
+time, and a CI run immediately after the fix caught `chrome142` being
+challenged, rotated, and recovered all 73 listings.
+
+**2. Cars.com refuses GitHub Actions IPs — genuinely unfixed.** This one is
+real IP reputation, and it survives a 45-minute cooldown. Cloudflare scores
+Actions' datacenter ranges as hostile. Raising retries made it *worse* — more
+requests got the whole range refused. One CI run did get 18 listings through
+after the session warm-up landed, so it is not hopeless, just unreliable.
 
 What the bot does about it:
 
-- **Warm-up.** It lands on `https://www.cars.com/` first to pick up clearance
-  cookies, then hits the SRP with a `Referer`, so the request looks like a
-  second page view rather than a cold-start scrape. This is what took one run
-  from 0 to 18 listings.
-- **Circuit breaker.** Once a host hard-blocks, that host is skipped for the
-  rest of the run rather than retried once per target. Hammering does not
-  change its mind, wastes runtime, and worsens the block for next time.
+- **Warm-up.** Lands on `https://www.cars.com/` first for clearance cookies,
+  then hits the SRP with a `Referer`, so it reads as a second page view rather
+  than a cold-start scrape. This is what produced the one successful run.
+- **Circuit breaker.** Once a host hard-blocks, it is skipped for the rest of
+  the run instead of being retried once per target — same information, a third
+  of the requests, minutes faster.
 - **Modest retries (3).** Tuned down from 5 after measuring that more was worse.
 
 **Why this is survivable:** Autotrader is reliable from CI and returns ~73
-listings against cars.com's ~18, with heavy overlap. Dedupe is by VIN, so a
-car that cars.com would have surfaced is usually caught via Autotrader in the
-same run — and if not, on one of the next twelve runs that day. You are
-running this every 2 hours, not once.
+listings to cars.com's ~18, with heavy overlap. Dedupe is by VIN, so a car
+cars.com would have surfaced usually arrives via Autotrader in the same run —
+and if not, on one of the next twelve runs that day.
 
-If you want cars.com to be reliable rather than best-effort, the only real fix
-is a non-datacenter egress IP: run the scan on a home machine via `cron`, or
+If you want cars.com reliable rather than best-effort, the only real fix is a
+non-datacenter egress IP: run the scan from a machine at home on `cron`, or
 put a residential proxy in front of it. Both are more moving parts than this
 brief asked for, so the bot degrades gracefully instead.
+
+### Notification links
+
+Tapping a notification opens the listing itself — `Click` is set to the
+vehicle page, and all three URL shapes were verified to resolve:
+
+| Source | URL shape |
+|---|---|
+| Cars.com | `cars.com/vehicledetail/<uuid>/` (taken from the card's own href) |
+| Autotrader | `autotrader.com/cars-for-sale/vehicle/<id>` (constructed) |
+| CarMax | `carmax.com/car/<stock>` (constructed) |
+
+When the same VIN is on two sites, one `Click` is not enough, so the
+notification also carries a **button per site** via ntfy's `Actions` header
+(capped at 3, which is ntfy's limit). Single-source listings get no buttons —
+tapping already does the job.
 
 ### How CarMax works (the `uri` trick)
 
@@ -315,7 +343,7 @@ a parse failure, or an outright crash logs a warning and the others carry on.
 PYTHONPATH=src:tests python -m pytest -q
 ```
 
-97 tests, no network access — they run against saved fixtures captured from
+109 tests, no network access — they run against saved fixtures captured from
 real responses:
 
 - `test_filters.py` — per-model year floors, price/mileage caps, excluded

@@ -10,7 +10,7 @@ from __future__ import annotations
 
 import logging
 import os
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from curl_cffi import requests as curl_requests
 
@@ -53,9 +53,24 @@ class Notification:
     click: str
     priority: str
     tags: str
+    # (label, url) buttons, shown under the notification in the ntfy app.
+    actions: list[tuple[str, str]] = field(default_factory=list)
 
     def describe(self) -> str:
-        return f"[{self.priority}] {self.title}\n    {self.body}\n    -> {self.click}"
+        lines = [f"[{self.priority}] {self.title}", f"    {self.body}",
+                 f"    -> {self.click}"]
+        for label, url in self.actions:
+            lines.append(f"    [{label}] {url}")
+        return "\n".join(lines)
+
+    def actions_header(self) -> str:
+        """ntfy's Actions header: 'view, <label>, <url>' joined by ';'.
+
+        ntfy caps this at 3 actions, so we never emit more.
+        """
+        return "; ".join(
+            f"view, {label}, {url}, clear=true" for label, url in self.actions[:3]
+        )
 
 
 # -- building ----------------------------------------------------------------
@@ -69,6 +84,7 @@ def build_new_listing(listing: Listing) -> Notification:
         click=listing.url,
         priority=_priority(listing),
         tags="car",
+        actions=_actions(listing),
     )
 
 
@@ -80,6 +96,7 @@ def build_price_drop(listing: Listing, old_price: int, new_price: int) -> Notifi
         click=listing.url,
         priority=_priority(listing),
         tags="chart_with_downwards_trend",
+        actions=_actions(listing),
     )
 
 
@@ -106,6 +123,22 @@ def _body(listing: Listing, prefix: str = "") -> str:
     sources = " + ".join(SOURCE_LABELS.get(s, s) for s in listing.sources)
     parts.append(sources)
     return " · ".join(p for p in parts if p)
+
+
+def _actions(listing: Listing) -> list[tuple[str, str]]:
+    """One button per site carrying this VIN.
+
+    A car found on two sites has two listing pages, and Click can only hold
+    one of them. Only worth showing when there is genuinely a choice - a
+    single-source listing already opens on tap.
+    """
+    if len(listing.urls) < 2:
+        return []
+    return [
+        (SOURCE_LABELS.get(src, src), url)
+        for src, url in sorted(listing.urls.items())
+        if url
+    ]
 
 
 def _priority(listing: Listing) -> str:
@@ -146,6 +179,8 @@ class NtfyClient:
         }
         if note.click:
             headers["Click"] = note.click
+        if note.actions:
+            headers["Actions"] = note.actions_header()
         if self.token:
             headers["Authorization"] = f"Bearer {self.token}"
 
