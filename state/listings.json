@@ -1,5 +1,1869 @@
 {
+  "listings": {
+    "WAUA4BF43LA053074": {
+      "body_style": "Sedan",
+      "city": "Ocala",
+      "dealer": "Gary Yeomans Ford Ocala Villages",
+      "distance_mi": 700.18,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 44789,
+      "model": "S4",
+      "price": 33754,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "FL",
+      "status": "available",
+      "trim": "Premium",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/788784606",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/788784606"
+      },
+      "vin": "WAUA4BF43LA053074",
+      "year": 2020
+    },
+    "WAUA4CF53NA028743": {
+      "body_style": "Hatchback",
+      "city": "Breaux Bridge",
+      "dealer": "Courtesy Ford",
+      "distance_mi": 742.73,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 27526,
+      "model": "S5",
+      "price": 36885,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "LA",
+      "status": "available",
+      "trim": "Premium",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/783819447",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/783819447"
+      },
+      "vin": "WAUA4CF53NA028743",
+      "year": 2022
+    },
+    "WAUB4AF43LA049878": {
+      "body_style": "4D Sedan",
+      "city": "Palmdale",
+      "dealer": "CarMax Palmdale",
+      "distance_mi": 345.2,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 21120,
+      "model": "S4",
+      "price": 37998,
+      "source": "carmax",
+      "sources": [
+        "carmax"
+      ],
+      "state": "CA",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.carmax.com/car/70228243",
+      "urls": {
+        "carmax": "https://www.carmax.com/car/70228243"
+      },
+      "vin": "WAUB4AF43LA049878",
+      "year": 2020
+    },
+    "WAUB4AF43NA050600": {
+      "body_style": "4D Sedan",
+      "city": "Marysville",
+      "dealer": "CarMax Tulalip",
+      "distance_mi": 1136.2,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 21060,
+      "model": "S4",
+      "price": 37998,
+      "source": "carmax",
+      "sources": [
+        "carmax"
+      ],
+      "state": "WA",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.carmax.com/car/28511769",
+      "urls": {
+        "carmax": "https://www.carmax.com/car/28511769"
+      },
+      "vin": "WAUB4AF43NA050600",
+      "year": 2022
+    },
+    "WAUB4AF48MA014285": {
+      "body_style": "Sedan",
+      "city": "Tomball",
+      "dealer": "THIScar - SELL US YOUR CAR!",
+      "distance_mi": 888.8,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 40267,
+      "model": "S4",
+      "price": 36685,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "TX",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790748921",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790748921"
+      },
+      "vin": "WAUB4AF48MA014285",
+      "year": 2021
+    },
+    "WAUB4AF48NA030875": {
+      "body_style": "Sedan",
+      "city": "Montclair",
+      "dealer": "California Motors Direct Montclair",
+      "distance_mi": 1863.37,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 40530,
+      "model": "S4",
+      "price": 37985,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "CA",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/785624558",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/785624558"
+      },
+      "vin": "WAUB4AF48NA030875",
+      "year": 2022
+    },
+    "WAUB4AF4XPA084052": {
+      "body_style": "Sedan",
+      "city": "Martinez",
+      "dealer": "Gerald Jones Mazda",
+      "distance_mi": 412.58,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 44796,
+      "model": "S4",
+      "price": 37566,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "GA",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790059611",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790059611"
+      },
+      "vin": "WAUB4AF4XPA084052",
+      "year": 2023
+    },
+    "WAUB4BF49NA030745": {
+      "body_style": "Sedan",
+      "city": "Marysville",
+      "dealer": "Performance Luxury Sport",
+      "distance_mi": 96.12,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 39606,
+      "model": "S4",
+      "price": 36898,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "OH",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/789027759",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/789027759"
+      },
+      "vin": "WAUB4BF49NA030745",
+      "year": 2022
+    },
+    "WAUC4AF48LA051307": {
+      "body_style": "Sedan",
+      "city": "North Pekin",
+      "dealer": "Mid-Illini Auto Group",
+      "distance_mi": 289.69,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 44809,
+      "model": "S4",
+      "price": 34873,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "IL",
+      "status": "available",
+      "trim": "Prestige",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/783656210",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/783656210"
+      },
+      "vin": "WAUC4AF48LA051307",
+      "year": 2020
+    },
+    "WAUC4CF50PA045043": {
+      "body_style": "Hatchback",
+      "city": "Streetsboro",
+      "dealer": "VW of Streetsboro",
+      "distance_mi": 220.18,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 35939,
+      "model": "S5",
+      "price": 37749,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "OH",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/787237270",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/787237270"
+      },
+      "vin": "WAUC4CF50PA045043",
+      "year": 2023
+    },
+    "WAUC4CF57LA022269": {
+      "body_style": "Hatchback",
+      "city": "Sylvania",
+      "dealer": "Vin Devers Autohaus of Sylvania",
+      "distance_mi": 181.21,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 37125,
+      "model": "S5",
+      "price": 38348,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "OH",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/791122557",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/791122557"
+      },
+      "vin": "WAUC4CF57LA022269",
+      "year": 2020
+    },
+    "WAUG3CGY7NA028279": {
+      "body_style": "Sedan",
+      "city": "Powell",
+      "dealer": "Auto Assets",
+      "distance_mi": 101.91,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 42623,
+      "model": "S3",
+      "price": 31606,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "OH",
+      "status": "available",
+      "trim": "Premium",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/791186584",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/791186584"
+      },
+      "vin": "WAUG3CGY7NA028279",
+      "year": 2022
+    },
+    "WAUG3DGY3PA047095": {
+      "body_style": "Sedan",
+      "city": "Nashua",
+      "dealer": "Audi of Nashua",
+      "distance_mi": 721.55,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 39263,
+      "model": "S3",
+      "price": 36588,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "NH",
+      "status": "available",
+      "trim": "Premium",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/789396733",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/789396733"
+      },
+      "vin": "WAUG3DGY3PA047095",
+      "year": 2023
+    },
+    "WAUG3DGY4PA053844": {
+      "body_style": "Sedan",
+      "city": "New Braunfels",
+      "dealer": "Champion Nissan New Braunfels",
+      "distance_mi": 1010.07,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 31114,
+      "model": "S3",
+      "price": 34568,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "TX",
+      "status": "available",
+      "trim": "Premium",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/786841467",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/786841467"
+      },
+      "vin": "WAUG3DGY4PA053844",
+      "year": 2023
+    },
+    "WAUG3DGY5PA118524": {
+      "body_style": "Sedan",
+      "city": "Studio City",
+      "dealer": "Private Seller Exchange",
+      "distance_mi": 1899.21,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 30000,
+      "model": "S3",
+      "price": 37000,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "CA",
+      "status": "available",
+      "trim": "Premium",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/778683852",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/778683852"
+      },
+      "vin": "WAUG3DGY5PA118524",
+      "year": 2023
+    },
+    "WAUG3DGY8PA030860": {
+      "body_style": "Sedan",
+      "city": "Roswell",
+      "dealer": "Audi North Atlanta",
+      "distance_mi": 352.71,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 36903,
+      "model": "S3",
+      "price": 34498,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "GA",
+      "status": "available",
+      "trim": "Premium",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790902863",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790902863"
+      },
+      "vin": "WAUG3DGY8PA030860",
+      "year": 2023
+    },
+    "WAUH3CGY0NA096556": {
+      "body_style": "Sedan",
+      "city": "Indianapolis",
+      "dealer": "Fishers Imports NW",
+      "distance_mi": 106.62,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 22735,
+      "model": "S3",
+      "price": 37800,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "IN",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/784894565",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/784894565"
+      },
+      "vin": "WAUH3CGY0NA096556",
+      "year": 2022
+    },
+    "WAUH3CGY4PA041210": {
+      "body_style": "Sedan",
+      "city": "Framingham",
+      "dealer": "Automax Preowned",
+      "distance_mi": 715.99,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 38227,
+      "model": "S3",
+      "price": 35495,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "MA",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/787814611",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/787814611"
+      },
+      "vin": "WAUH3CGY4PA041210",
+      "year": 2023
+    },
+    "WAUH3CGY5NA105154": {
+      "body_style": "Sedan",
+      "city": "Wayzata",
+      "dealer": "Walser Nissan Wayzata",
+      "distance_mi": 610.41,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 44798,
+      "model": "S3",
+      "price": 32749,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "MN",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/784803614",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/784803614"
+      },
+      "vin": "WAUH3CGY5NA105154",
+      "year": 2022
+    },
+    "WAUH3CGY9PA091052": {
+      "body_style": "Sedan",
+      "city": "Willowbrook",
+      "dealer": "Highline Auto Sales",
+      "distance_mi": 254.18,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 37289,
+      "model": "S3",
+      "price": 33373,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "IL",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/788483599",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/788483599"
+      },
+      "vin": "WAUH3CGY9PA091052",
+      "year": 2023
+    },
+    "WAUH3DGY0NA003296": {
+      "body_style": "Sedan",
+      "city": "Everett",
+      "dealer": "Dwayne Lane's Chrysler Jeep Dodge RAM",
+      "distance_mi": 1962.61,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 40442,
+      "model": "S3",
+      "price": 37199,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "WA",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790937594",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790937594"
+      },
+      "vin": "WAUH3DGY0NA003296",
+      "year": 2022
+    },
+    "WAUH3DGY0PA029321": {
+      "body_style": "Sedan",
+      "city": "Norwalk",
+      "dealer": "McKenna Audi",
+      "distance_mi": 1889.02,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 23455,
+      "model": "S3",
+      "price": 35718,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "CA",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/782662083",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/782662083"
+      },
+      "vin": "WAUH3DGY0PA029321",
+      "year": 2023
+    },
+    "WAUH3DGY0PA034454": {
+      "body_style": "Sedan",
+      "city": "Layton",
+      "dealer": "Young Volkswagen Audi of Layton",
+      "distance_mi": 1452.25,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 25381,
+      "model": "S3",
+      "price": 38249,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "UT",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/786935597",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/786935597"
+      },
+      "vin": "WAUH3DGY0PA034454",
+      "year": 2023
+    },
+    "WAUH3DGY0RA014918": {
+      "body_style": "Sedan",
+      "city": "Sumner",
+      "dealer": "Honda of Sumner",
+      "distance_mi": 1958.38,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 26688,
+      "model": "S3",
+      "price": 37873,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "WA",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/786141128",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/786141128"
+      },
+      "vin": "WAUH3DGY0RA014918",
+      "year": 2024
+    },
+    "WAUH3DGY1PA030767": {
+      "body_style": "Sedan",
+      "city": "Longmont",
+      "dealer": "Booth Motors, LLC",
+      "distance_mi": 1091.92,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 31237,
+      "model": "S3",
+      "price": 31913,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "CO",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/767465093",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/767465093"
+      },
+      "vin": "WAUH3DGY1PA030767",
+      "year": 2023
+    },
+    "WAUH3DGY1PA090399": {
+      "body_style": "Sedan",
+      "city": "Peabody",
+      "dealer": "Auto Mall Collection",
+      "distance_mi": 744.87,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 24082,
+      "model": "S3",
+      "price": 36695,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "MA",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/788128684",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/788128684"
+      },
+      "vin": "WAUH3DGY1PA090399",
+      "year": 2023
+    },
+    "WAUH3DGY1PA131937": {
+      "body_style": "Sedan",
+      "city": "Santa Ana",
+      "dealer": "California Motors Direct - Santa Ana",
+      "distance_mi": 1879.38,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 20943,
+      "model": "S3",
+      "price": 34985,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "CA",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/787484821",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/787484821"
+      },
+      "vin": "WAUH3DGY1PA131937",
+      "year": 2023
+    },
+    "WAUH3DGY2NA057764": {
+      "body_style": "Sedan",
+      "city": "Sanford",
+      "dealer": "JT Autogroup",
+      "distance_mi": 388.38,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 34111,
+      "model": "S3",
+      "price": 35597,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "NC",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/783192388",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/783192388"
+      },
+      "vin": "WAUH3DGY2NA057764",
+      "year": 2022
+    },
+    "WAUH3DGY2PA100342": {
+      "body_style": "Sedan",
+      "city": "Bountiful",
+      "dealer": "Rand's Auto Sales",
+      "distance_mi": 1448.85,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 33553,
+      "model": "S3",
+      "price": 31299,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "UT",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/791614777",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/791614777"
+      },
+      "vin": "WAUH3DGY2PA100342",
+      "year": 2023
+    },
+    "WAUH3DGY3PA045805": {
+      "body_style": "Sedan",
+      "city": "Pembroke Pines",
+      "dealer": "Audi Pembroke Pines",
+      "distance_mi": 938.78,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 22406,
+      "model": "S3",
+      "price": 34297,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "FL",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/785241527",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/785241527"
+      },
+      "vin": "WAUH3DGY3PA045805",
+      "year": 2023
+    },
+    "WAUH3DGY3PA048994": {
+      "body_style": "Sedan",
+      "city": "Owings Mills",
+      "dealer": "Porsche Owings Mills",
+      "distance_mi": 411.84,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 26987,
+      "model": "S3",
+      "price": 37687,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "MD",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/788887202",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/788887202"
+      },
+      "vin": "WAUH3DGY3PA048994",
+      "year": 2023
+    },
+    "WAUH3DGY4PA027278": {
+      "body_style": "Sedan",
+      "city": "Plano",
+      "dealer": "Auto Merchants Inc.",
+      "distance_mi": 805.62,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 24328,
+      "model": "S3",
+      "price": 33499,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "TX",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/784719502",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/784719502"
+      },
+      "vin": "WAUH3DGY4PA027278",
+      "year": 2023
+    },
+    "WAUH3DGY4PA045392": {
+      "body_style": "Sedan",
+      "city": "Raleigh",
+      "dealer": "Atlas Motor Co.",
+      "distance_mi": 396.38,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 27542,
+      "model": "S3",
+      "price": 36995,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "NC",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/788504063",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/788504063"
+      },
+      "vin": "WAUH3DGY4PA045392",
+      "year": 2023
+    },
+    "WAUH3DGY4RA020673": {
+      "body_style": "Sedan",
+      "city": "Sacramento",
+      "dealer": "NielloGO",
+      "distance_mi": 1973.37,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 25707,
+      "model": "S3",
+      "price": 35995,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "CA",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/784366818",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/784366818"
+      },
+      "vin": "WAUH3DGY4RA020673",
+      "year": 2024
+    },
+    "WAUH3DGY4RA023251": {
+      "body_style": "Sedan",
+      "city": "Conroe",
+      "dealer": "Gullo Mazda",
+      "distance_mi": 872.18,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 34130,
+      "model": "S3",
+      "price": 37203,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "TX",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/787249275",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/787249275"
+      },
+      "vin": "WAUH3DGY4RA023251",
+      "year": 2024
+    },
+    "WAUH3DGY4RA036422": {
+      "body_style": "Sedan",
+      "city": "San Juan",
+      "dealer": "Audi San Juan",
+      "distance_mi": 1193.98,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "certified",
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 17750,
+      "model": "S3",
+      "price": 37723,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "TX",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/786173282",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/786173282"
+      },
+      "vin": "WAUH3DGY4RA036422",
+      "year": 2024
+    },
+    "WAUH3DGY5PA033218": {
+      "body_style": "Sedan",
+      "city": "Swanzey",
+      "dealer": "Nucar Nissan of Keene",
+      "distance_mi": 688.1,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 42650,
+      "model": "S3",
+      "price": 34409,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "NH",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/786766715",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/786766715"
+      },
+      "vin": "WAUH3DGY5PA033218",
+      "year": 2023
+    },
+    "WAUH3DGY5PA044722": {
+      "body_style": "Sedan",
+      "city": "Calabasas",
+      "dealer": "Audi Calabasas",
+      "distance_mi": 1913.5,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 39078,
+      "model": "S3",
+      "price": 33976,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "CA",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/791086016",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/791086016"
+      },
+      "vin": "WAUH3DGY5PA044722",
+      "year": 2023
+    },
+    "WAUH3DGY5PA138230": {
+      "body_style": "Sedan",
+      "city": "Champaign",
+      "dealer": "Mercedes-Benz of Champaign",
+      "distance_mi": 210.6,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 26648,
+      "model": "S3",
+      "price": 36402,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "IL",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790417536",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790417536"
+      },
+      "vin": "WAUH3DGY5PA138230",
+      "year": 2023
+    },
+    "WAUH3DGY6PA041215": {
+      "body_style": "Sedan",
+      "city": "Highland Park",
+      "dealer": "GRAVITY AUTOS of CHICAGO",
+      "distance_mi": 273.33,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 26964,
+      "model": "S3",
+      "price": 35902,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "IL",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790375798",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790375798"
+      },
+      "vin": "WAUH3DGY6PA041215",
+      "year": 2023
+    },
+    "WAUH3DGY6PA053316": {
+      "body_style": "Sedan",
+      "city": "Orlando",
+      "dealer": "Universal Hyundai",
+      "distance_mi": 763.58,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 19600,
+      "model": "S3",
+      "price": 37056,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "FL",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/789771897",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/789771897"
+      },
+      "vin": "WAUH3DGY6PA053316",
+      "year": 2023
+    },
+    "WAUH3DGY6PA116222": {
+      "body_style": "Sedan",
+      "city": "Dallas",
+      "dealer": "Audi Dallas",
+      "distance_mi": 815.1,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 29510,
+      "model": "S3",
+      "price": 34870,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "TX",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/785482484",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/785482484"
+      },
+      "vin": "WAUH3DGY6PA116222",
+      "year": 2023
+    },
+    "WAUH3DGY7PA033396": {
+      "body_style": "Sedan",
+      "city": "East Hartford",
+      "dealer": "Gengras Chrysler Dodge Jeep Ram East Hartford",
+      "distance_mi": 647.47,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 43500,
+      "model": "S3",
+      "price": 34390,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "CT",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/785379843",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/785379843"
+      },
+      "vin": "WAUH3DGY7PA033396",
+      "year": 2023
+    },
+    "WAUH3DGY7PA064082": {
+      "body_style": "Sedan",
+      "city": "Naugatuck",
+      "dealer": "J&M Automotive",
+      "distance_mi": 623.68,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 42913,
+      "model": "S3",
+      "price": 35793,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "CT",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/787364309",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/787364309"
+      },
+      "vin": "WAUH3DGY7PA064082",
+      "year": 2023
+    },
+    "WAUH3DGY7PA137192": {
+      "body_style": "Sedan",
+      "city": "Peabody",
+      "dealer": "Auto Mall Collection",
+      "distance_mi": 744.87,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 30009,
+      "model": "S3",
+      "price": 37695,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "MA",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/788330690",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/788330690"
+      },
+      "vin": "WAUH3DGY7PA137192",
+      "year": 2023
+    },
+    "WAUH3DGY8PA034654": {
+      "body_style": "Sedan",
+      "city": "Fishers",
+      "dealer": "Alderman Automotive",
+      "distance_mi": 98.53,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 26049,
+      "model": "S3",
+      "price": 36713,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "IN",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/785858347",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/785858347"
+      },
+      "vin": "WAUH3DGY8PA034654",
+      "year": 2023
+    },
+    "WAUH3DGY9PA032640": {
+      "body_style": "Sedan",
+      "city": "Houston",
+      "dealer": "West Houston Hyundai Genesis",
+      "distance_mi": 906.92,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 16622,
+      "model": "S3",
+      "price": 38162,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "TX",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/789224734",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/789224734"
+      },
+      "vin": "WAUH3DGY9PA032640",
+      "year": 2023
+    },
+    "WAUH3DGY9PA053102": {
+      "body_style": "Sedan",
+      "city": "Santa Monica",
+      "dealer": "Audi Santa Monica",
+      "distance_mi": 1907.28,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 23327,
+      "model": "S3",
+      "price": 36477,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "CA",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/781737639",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/781737639"
+      },
+      "vin": "WAUH3DGY9PA053102",
+      "year": 2023
+    },
+    "WAUH3DGYXPA027379": {
+      "body_style": "Sedan",
+      "city": "Raleigh",
+      "dealer": "Audi Raleigh",
+      "distance_mi": 395.85,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 28542,
+      "model": "S3",
+      "price": 34997,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "NC",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/775624925",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/775624925"
+      },
+      "vin": "WAUH3DGYXPA027379",
+      "year": 2023
+    },
+    "WAUH3DGYXPA035479": {
+      "body_style": "Sedan",
+      "city": "Salt Lake City",
+      "dealer": "Low Book Sales",
+      "distance_mi": 1449.14,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 34646,
+      "model": "S3",
+      "price": 35672,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "UT",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/789479333",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/789479333"
+      },
+      "vin": "WAUH3DGYXPA035479",
+      "year": 2023
+    },
+    "WAUH3DGYXPA091597": {
+      "body_style": "Sedan",
+      "city": "Murrieta",
+      "dealer": "Volkswagen of Murrieta",
+      "distance_mi": 1848.91,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 15323,
+      "model": "S3",
+      "price": 36673,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "CA",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/791607342",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/791607342"
+      },
+      "vin": "WAUH3DGYXPA091597",
+      "year": 2023
+    },
+    "WAUH3DGYXPA136084": {
+      "body_style": "Sedan",
+      "city": "Rochester",
+      "dealer": "Rochester Volkswagen",
+      "distance_mi": 756.44,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 40864,
+      "model": "S3",
+      "price": 36123,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "NH",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790742941",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790742941"
+      },
+      "vin": "WAUH3DGYXPA136084",
+      "year": 2023
+    },
+    "WAUH5DGY2SA058659": {
+      "body_style": "Sedan",
+      "city": "Northbrook",
+      "dealer": "carneed",
+      "distance_mi": 271.16,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 9512,
+      "model": "S3",
+      "price": 37370,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "IL",
+      "status": "available",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/778145625",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/778145625"
+      },
+      "vin": "WAUH5DGY2SA058659",
+      "year": 2025
+    },
+    "WAUJ3CGY0NA084134": {
+      "body_style": "Sedan",
+      "city": "Hamburg",
+      "dealer": "Superior Auto Sales",
+      "distance_mi": 384.69,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 27229,
+      "model": "S3",
+      "price": 37927,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "NY",
+      "status": "available",
+      "trim": "Prestige",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/788611677",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/788611677"
+      },
+      "vin": "WAUJ3CGY0NA084134",
+      "year": 2022
+    },
+    "WAUJ3CGY2NA003652": {
+      "body_style": "Sedan",
+      "city": "Brooklyn",
+      "dealer": "Private Seller Exchange",
+      "distance_mi": 569.83,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 30815,
+      "model": "S3",
+      "price": 35960,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "NY",
+      "status": "available",
+      "trim": "Prestige",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/791510291",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/791510291"
+      },
+      "vin": "WAUJ3CGY2NA003652",
+      "year": 2022
+    },
+    "WAUJ3CGYXNA105152": {
+      "body_style": "Sedan",
+      "city": "Wayzata",
+      "dealer": "Walser Nissan Wayzata",
+      "distance_mi": 610.41,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 39547,
+      "model": "S3",
+      "price": 36249,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "MN",
+      "status": "available",
+      "trim": "Prestige",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790796017",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790796017"
+      },
+      "vin": "WAUJ3CGYXNA105152",
+      "year": 2022
+    },
+    "WAUJ3DGY2PA053735": {
+      "body_style": "Sedan",
+      "city": "Portland",
+      "dealer": "Ron Tonkin Mazda of Portland",
+      "distance_mi": 1972.08,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 35042,
+      "model": "S3",
+      "price": 37873,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "OR",
+      "status": "available",
+      "trim": "Prestige",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/786342588",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/786342588"
+      },
+      "vin": "WAUJ3DGY2PA053735",
+      "year": 2023
+    },
+    "WAUJ3DGY2PA076089": {
+      "body_style": "Sedan",
+      "city": "South Attleboro",
+      "dealer": "Courtesy Mitsubishi",
+      "distance_mi": 714.01,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 39122,
+      "model": "S3",
+      "price": 36997,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "MA",
+      "status": "available",
+      "trim": "Prestige",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/785310718",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/785310718"
+      },
+      "vin": "WAUJ3DGY2PA076089",
+      "year": 2023
+    },
+    "WAUJ3DGY3PA054148": {
+      "body_style": "Sedan",
+      "city": "Fort Lauderdale",
+      "dealer": "Rick Case Acura",
+      "distance_mi": 933.86,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 33408,
+      "model": "S3",
+      "price": 36113,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "FL",
+      "status": "available",
+      "trim": "Prestige",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/787846964",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/787846964"
+      },
+      "vin": "WAUJ3DGY3PA054148",
+      "year": 2023
+    },
+    "WAUJ3DGY3PA067336": {
+      "body_style": "Sedan",
+      "city": "Boston",
+      "dealer": "Boston Foreign Motor",
+      "distance_mi": 732.18,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 35656,
+      "model": "S3",
+      "price": 37995,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "MA",
+      "status": "available",
+      "trim": "Prestige",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/791298383",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/791298383"
+      },
+      "vin": "WAUJ3DGY3PA067336",
+      "year": 2023
+    },
+    "WAUJ3DGY4RA071995": {
+      "body_style": "Sedan",
+      "city": "Woodbury",
+      "dealer": "Executive Auto Sales",
+      "distance_mi": 501.23,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 32100,
+      "model": "S3",
+      "price": 38495,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "NJ",
+      "status": "available",
+      "trim": "Prestige",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790237634",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790237634"
+      },
+      "vin": "WAUJ3DGY4RA071995",
+      "year": 2024
+    },
+    "WAUJ3DGY5NA000590": {
+      "body_style": "Sedan",
+      "city": "Tigard",
+      "dealer": "Luxury Sport Autos",
+      "distance_mi": 1982.66,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 31689,
+      "model": "S3",
+      "price": 36377,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "OR",
+      "status": "available",
+      "trim": "Prestige",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/785858859",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/785858859"
+      },
+      "vin": "WAUJ3DGY5NA000590",
+      "year": 2022
+    },
+    "WAUJ3DGY6NA104294": {
+      "body_style": "Sedan",
+      "city": "Modesto",
+      "dealer": "Modesto Toyota",
+      "distance_mi": 1964.54,
+      "first_seen": "2026-09-22T13:51:15+00:00",
+      "flags": [
+        "clean_title",
+        "no_accidents",
+        "one_owner"
+      ],
+      "last_seen": "2026-09-22T13:51:15+00:00",
+      "make": "Audi",
+      "mileage": 29968,
+      "model": "S3",
+      "price": 37561,
+      "source": "autotrader",
+      "sources": [
+        "autotrader"
+      ],
+      "state": "CA",
+      "status": "available",
+      "trim": "Prestige",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/791597671",
+      "urls": {
+        "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/791597671"
+      },
+      "vin": "WAUJ3DGY6NA104294",
+      "year": 2022
+    }
+  },
   "schema_version": 1,
-  "listings": {},
-  "updated_at": null
+  "updated_at": "2026-09-22T13:51:15+00:00"
 }
