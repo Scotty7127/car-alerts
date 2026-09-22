@@ -2,9 +2,9 @@ name: Car scan
 
 on:
   schedule:
-    # Every 2 hours, on the hour (UTC). GitHub's scheduler is best-effort and
-    # can run several minutes late under load - that is fine for this.
-    - cron: "0 */2 * * *"
+    # Hourly, on the hour (UTC). GitHub's scheduler is best-effort and can run
+    # well over ten minutes late under load - that is fine for this.
+    - cron: "0 * * * *"
   workflow_dispatch:
     inputs:
       mode:

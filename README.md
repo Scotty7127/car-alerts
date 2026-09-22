@@ -1,6 +1,6 @@
 # car-alerts
 
-A small used-car alert bot. Runs on GitHub Actions cron every 2 hours, scrapes
+A small used-car alert bot. Runs on GitHub Actions cron every hour, scrapes
 a few listing sites, diffs against the previous run, and pushes an
 [ntfy](https://ntfy.sh) notification for every new match and every meaningful
 price drop. No server, no database — state is a JSON file committed back to
@@ -92,7 +92,7 @@ What the bot does about it:
 **Why this is survivable:** Autotrader is reliable from CI and returns ~73
 listings to cars.com's ~18, with heavy overlap. Dedupe is by VIN, so a car
 cars.com would have surfaced usually arrives via Autotrader in the same run —
-and if not, on one of the next twelve runs that day.
+and if not, on one of the next twenty-odd runs that day.
 
 If you want cars.com reliable rather than best-effort, the only real fix is a
 non-datacenter egress IP: run the scan from a machine at home on `cron`, or
