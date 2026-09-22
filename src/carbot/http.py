@@ -25,10 +25,23 @@ log = logging.getLogger(__name__)
 # request with curl_cffi's own UA returns JSON.
 #
 # Rotating the *profile* rotates the User-Agent coherently, which is what we
-# actually want. These four were each verified to get a real response from
-# cars.com and autotrader.com; chrome131/133a/142/146, edge and safari were
-# all challenged and are deliberately excluded.
-IMPERSONATE_PROFILES = ["chrome", "chrome136", "chrome145", "chrome150"]
+# actually want.
+#
+# The set below is not cosmetic - profiles are NOT interchangeable, and a bad
+# one fails silently with a 200 and an HTML challenge body rather than an
+# error. Measured over 3 trials each against the Autotrader and CarMax JSON
+# APIs:
+#
+#     chrome     3/3, 3/3      chrome136   0/3, 0/3
+#     chrome142  3/3, 3/3      chrome133a  0/3, 0/3
+#     chrome145  3/3, 3/3      chrome146   0/3, 0/3
+#     chrome150  3/3, 3/3      chrome119   0/3, 0/3
+#                              chrome120   3/3, 0/3
+#
+# chrome136 was in this list initially, on the strength of a single lucky
+# trial, and silently zeroed Autotrader on roughly one run in four. Re-measure
+# with repeats before adding anything here.
+IMPERSONATE_PROFILES = ["chrome", "chrome142", "chrome145", "chrome150"]
 
 
 class BlockedError(RuntimeError):
@@ -170,17 +183,33 @@ class Fetcher:
         self._warmed.clear()
 
     def get_json(self, url: str, headers: dict[str, str] | None = None) -> Any:
-        """GET expecting JSON. Raises BlockedError if a challenge page comes back."""
+        """GET expecting JSON, retrying under a new fingerprint on a challenge.
+
+        A challenge page arrives as `200 text/html`, not as an error status, so
+        `get()` is perfectly happy with it. Treat it as a soft block: rotate the
+        impersonation profile and try again. This makes an unlucky profile
+        self-healing instead of silently returning zero listings for the run.
+        """
         h = {"Accept": "application/json"}
         h.update(headers or {})
-        resp = self.get(url, headers=h)
-        ctype = resp.headers.get("content-type", "")
-        if "json" not in ctype:
-            raise BlockedError(
-                f"{_host(url)} returned {ctype or 'unknown content-type'} instead of JSON "
-                "(usually a bot-challenge page)"
+
+        last_ctype = ""
+        for attempt in range(1, self.max_retries + 1):
+            resp = self.get(url, headers=h)
+            last_ctype = resp.headers.get("content-type", "")
+            if "json" in last_ctype:
+                return resp.json()
+            log.warning(
+                "  %s served HTML instead of JSON under profile %r "
+                "- rotating fingerprint (%s/%s)",
+                _host(url), self.impersonate, attempt, self.max_retries,
             )
-        return resp.json()
+            self.rotate_fingerprint()
+
+        raise BlockedError(
+            f"{_host(url)} returned {last_ctype or 'unknown content-type'} instead of "
+            f"JSON after {self.max_retries} fingerprints (bot-challenge page)"
+        )
 
 
 def _host(url: str) -> str:

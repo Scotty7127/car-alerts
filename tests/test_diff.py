@@ -212,3 +212,64 @@ class TestCircuitBreaker:
         monkeypatch.setattr(fetcher._session, "get", lambda url, **kw: OkResp())
         monkeypatch.setattr("time.sleep", lambda *_: None)
         assert fetcher.get("https://www.other.com/x").status_code == 200
+
+
+class TestJsonChallengeRecovery:
+    """A bot-challenge arrives as 200 text/html, not an error status. An
+    unlucky impersonation profile must not silently zero a source."""
+
+    def _fetcher(self, monkeypatch):
+        from carbot.http import Fetcher
+        f = Fetcher(delay_range=(0, 0), max_retries=3)
+        monkeypatch.setattr("time.sleep", lambda *_: None)
+        return f
+
+    def test_rotates_fingerprint_and_recovers_from_an_html_challenge(self, monkeypatch):
+        f = self._fetcher(monkeypatch)
+        seen_profiles: list[str] = []
+
+        class Resp:
+            def __init__(self, ctype, payload=None):
+                self.status_code = 200
+                self.headers = {"content-type": ctype}
+                self._payload = payload
+
+            def json(self):
+                return self._payload
+
+        def fake_get(url, **kwargs):
+            seen_profiles.append(f.impersonate)
+            # First profile is a dud; anything after it works.
+            if len(seen_profiles) == 1:
+                return Resp("text/html; charset=utf-8")
+            return Resp("application/json", {"listings": [1, 2]})
+
+        monkeypatch.setattr(f, "_session", type("S", (), {"get": staticmethod(fake_get)})())
+        monkeypatch.setattr(f, "rotate_fingerprint",
+                            lambda: setattr(f, "impersonate", "chrome150"))
+
+        assert f.get_json("https://www.example.com/api") == {"listings": [1, 2]}
+        assert len(seen_profiles) == 2, "should have retried under a new profile"
+
+    def test_gives_up_with_a_clear_error_if_every_profile_is_challenged(self, monkeypatch):
+        from carbot.http import BlockedError
+
+        f = self._fetcher(monkeypatch)
+
+        class Resp:
+            status_code = 200
+            headers = {"content-type": "text/html"}
+
+        monkeypatch.setattr(
+            f, "_session",
+            type("S", (), {"get": staticmethod(lambda url, **kw: Resp())})())
+        monkeypatch.setattr(f, "rotate_fingerprint", lambda: None)
+
+        with pytest.raises(BlockedError, match="after 3 fingerprints"):
+            f.get_json("https://www.example.com/api")
+
+    def test_every_pinned_profile_is_one_of_the_verified_good_ones(self):
+        from carbot.http import IMPERSONATE_PROFILES
+        # chrome136/133a/146/119 measured 0/3 against the JSON APIs.
+        assert set(IMPERSONATE_PROFILES).isdisjoint(
+            {"chrome136", "chrome133a", "chrome146", "chrome119", "chrome120"})
