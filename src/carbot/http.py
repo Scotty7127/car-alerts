@@ -50,6 +50,7 @@ class Fetcher:
         self.impersonate = random.choice(IMPERSONATE_PROFILES)
         self._session = curl_requests.Session(impersonate=self.impersonate)
         self._last_request_at: float = 0.0
+        self._warmed: set[str] = set()
 
     # -- internals ---------------------------------------------------------
 
@@ -79,8 +80,34 @@ class Fetcher:
 
     # -- public ------------------------------------------------------------
 
+    def warm_up(self, url: str) -> None:
+        """Land on the site root once before hitting a deep URL.
+
+        Cloudflare and Akamai score a bare request to a search-results URL far
+        more harshly than the same request arriving after a normal-looking
+        navigation, especially from a datacenter IP like a GitHub Actions
+        runner. This picks up whatever clearance cookies the root sets and
+        makes the follow-up look like a second page view rather than a
+        cold-start scrape. Best effort - a failure here is not fatal.
+        """
+        host = _host(url)
+        if host in self._warmed:
+            return
+        self._warmed.add(host)
+        try:
+            self._sleep_between()
+            self._session.get(
+                f"https://{host}/", headers=self._headers(), timeout=self.timeout
+            )
+            log.debug("  warmed up %s", host)
+        except Exception as exc:
+            log.debug("  warm-up of %s failed (continuing): %s", host, exc)
+        finally:
+            self._last_request_at = time.monotonic()
+
     def get(self, url: str, headers: dict[str, str] | None = None) -> Any:
         """GET with backoff. Raises BlockedError on a hard block."""
+        self.warm_up(url)
         last_status: int | None = None
         for attempt in range(1, self.max_retries + 1):
             self._sleep_between()
@@ -106,8 +133,11 @@ class Fetcher:
                 )
                 time.sleep(backoff)
                 # A fresh fingerprint sometimes clears a soft block. Rebuild the
-                # session so the new profile applies to the TLS handshake too.
+                # session so the new profile applies to the TLS handshake too,
+                # and re-warm: the new session has no cookies.
                 self.rotate_fingerprint()
+                self._warmed.discard(_host(url))
+                self.warm_up(url)
                 continue
             log.warning("  HTTP %s from %s", resp.status_code, _host(url))
             break
@@ -118,6 +148,7 @@ class Fetcher:
         """Pick a new impersonation profile and rebuild the session with it."""
         self.impersonate = random.choice(IMPERSONATE_PROFILES)
         self._session = curl_requests.Session(impersonate=self.impersonate)
+        self._warmed.clear()
 
     def get_json(self, url: str, headers: dict[str, str] | None = None) -> Any:
         """GET expecting JSON. Raises BlockedError if a challenge page comes back."""

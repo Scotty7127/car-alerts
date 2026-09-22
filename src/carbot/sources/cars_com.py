@@ -65,7 +65,7 @@ class CarsComSource:
         found: list[Listing] = []
         for page in range(1, CONFIG["max_pages_per_target"] + 1):
             url = self._build_url(target, page)
-            resp = fetcher.get(url)
+            resp = fetcher.get(url, headers={"Referer": "https://www.cars.com/"})
             cards = _result_cards(resp.text)
             if not cards:
                 break
