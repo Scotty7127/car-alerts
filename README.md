@@ -160,8 +160,25 @@ string from DevTools.
 ### 1. Push this repo
 
 ```bash
-gh repo create <Tendersmith-or-personal>/car-alerts --private --source=. --push
+gh repo create <you>/car-alerts --public --source=. --push
 ```
+
+**Public on purpose.** GitHub Actions is unlimited and free on public repos,
+but private repos draw on a shared 2,000 min/month pool across your whole
+account. Hourly runs cost ~1,440 min/month — 72% of that pool — and when it is
+exhausted *every* private repo's Actions stop, not just this one. Nothing here
+is sensitive: it is scraper code plus public car listings. The ntfy topic is an
+Actions secret, never committed, and GitHub masks secrets in public logs.
+
+If you do keep it private, drop the schedule back to `0 */2 * * *` (~720
+min/month) or raise your spending limit above the $0 default.
+
+> **Commit authorship:** use your GitHub noreply address
+> (`<id>+<user>@users.noreply.github.com`) rather than a real email. On a
+> public repo, commit emails are scraped. Note that force-pushing a rewrite is
+> *not* enough on its own — GitHub keeps the orphaned commits fetchable by SHA
+> indefinitely, so the old email stays readable. The only reliable fix is to
+> push the cleaned history to a genuinely new repo.
 
 ### 2. Set the secrets
 
