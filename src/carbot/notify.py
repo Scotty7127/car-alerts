@@ -154,9 +154,18 @@ class NtfyClient:
     """Posts to ntfy. `enabled` is False when NTFY_TOPIC is unset."""
 
     def __init__(self) -> None:
-        self.topic = os.environ.get("NTFY_TOPIC", "").strip()
-        self.server = os.environ.get("NTFY_URL", DEFAULT_SERVER).strip().rstrip("/")
-        self.token = os.environ.get("NTFY_TOKEN", "").strip()
+        # Read with `or`, not a get() default. GitHub Actions sets every env
+        # var declared in the workflow, so an unset secret arrives as an empty
+        # string - the key exists and get()'s default never fires. That silently
+        # made the server "" and every POST a relative URL, so notifications
+        # failed while the run still reported success.
+        self.topic = _env("NTFY_TOPIC")
+        self.server = (_env("NTFY_URL") or DEFAULT_SERVER).rstrip("/")
+        self.token = _env("NTFY_TOKEN")
+        if not self.server.startswith(("http://", "https://")):
+            raise ValueError(
+                f"NTFY_URL must be an absolute URL, got {self.server!r}"
+            )
         self.enabled = bool(self.topic)
         if not self.enabled:
             log.warning("NTFY_TOPIC is not set - notifications will not be sent")
@@ -196,10 +205,15 @@ class NtfyClient:
             return False
 
         if resp.status_code >= 300:
-            log.error("ntfy returned %s for %r: %s",
-                      resp.status_code, note.title, resp.text[:200])
+            log.error("ntfy %s returned %s for %r: %s",
+                      self.endpoint, resp.status_code, note.title, resp.text[:200])
             return False
         return True
+
+
+def _env(name: str) -> str:
+    """Env var value, treating empty/whitespace as unset."""
+    return (os.environ.get(name) or "").strip()
 
 
 def _ascii(text: str) -> str:

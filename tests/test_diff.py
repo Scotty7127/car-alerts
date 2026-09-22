@@ -317,3 +317,54 @@ class TestClickThroughAndActions:
         listing = make_listing()
         listing.urls = {"cars.com": "https://cars.com/x", "carmax": ""}
         assert [label for label, _ in build_new_listing(listing).actions] == ["Cars.com"]
+
+
+class TestNtfyClientEnvHandling:
+    """GitHub Actions sets every env var declared in the workflow, so an unset
+    secret arrives as an empty string. os.environ.get(k, default) does NOT fall
+    back in that case - this silently broke every notification in production."""
+
+    def test_empty_ntfy_url_falls_back_to_the_public_server(self, monkeypatch):
+        from carbot.notify import NtfyClient
+        monkeypatch.setenv("NTFY_TOPIC", "t")
+        monkeypatch.setenv("NTFY_URL", "")      # exactly what Actions supplies
+        monkeypatch.setenv("NTFY_TOKEN", "")
+        assert NtfyClient().endpoint == "https://ntfy.sh/t"
+
+    def test_absent_ntfy_url_also_falls_back(self, monkeypatch):
+        from carbot.notify import NtfyClient
+        monkeypatch.setenv("NTFY_TOPIC", "t")
+        monkeypatch.delenv("NTFY_URL", raising=False)
+        assert NtfyClient().endpoint == "https://ntfy.sh/t"
+
+    def test_whitespace_only_url_falls_back(self, monkeypatch):
+        from carbot.notify import NtfyClient
+        monkeypatch.setenv("NTFY_TOPIC", "t")
+        monkeypatch.setenv("NTFY_URL", "   ")
+        assert NtfyClient().endpoint == "https://ntfy.sh/t"
+
+    def test_self_hosted_url_is_respected_and_trailing_slash_trimmed(self, monkeypatch):
+        from carbot.notify import NtfyClient
+        monkeypatch.setenv("NTFY_TOPIC", "t")
+        monkeypatch.setenv("NTFY_URL", "https://ntfy.example.com/")
+        assert NtfyClient().endpoint == "https://ntfy.example.com/t"
+
+    def test_a_relative_url_is_rejected_loudly_rather_than_failing_silently(
+        self, monkeypatch
+    ):
+        from carbot.notify import NtfyClient
+        monkeypatch.setenv("NTFY_TOPIC", "t")
+        monkeypatch.setenv("NTFY_URL", "ntfy.sh")   # no scheme
+        with pytest.raises(ValueError, match="absolute URL"):
+            NtfyClient()
+
+    def test_empty_topic_disables_sending(self, monkeypatch):
+        from carbot.notify import NtfyClient
+        monkeypatch.setenv("NTFY_TOPIC", "")
+        assert NtfyClient().enabled is False
+
+    def test_empty_token_means_no_auth_header(self, monkeypatch):
+        from carbot.notify import NtfyClient
+        monkeypatch.setenv("NTFY_TOPIC", "t")
+        monkeypatch.setenv("NTFY_TOKEN", "")
+        assert NtfyClient().token == ""

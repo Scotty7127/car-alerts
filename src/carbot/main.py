@@ -217,10 +217,19 @@ def main(argv: list[str] | None = None) -> int:
 
     client = NtfyClient()
     sent = sum(1 for note in notes if client.send(note))
+
+    # Persist regardless: a delivery failure must not cause the same cars to be
+    # re-detected and re-sent on the next run.
+    state_mod.save(next_state, args.state)
+
     if notes:
         log.info("sent %d/%d notification(s)", sent, len(notes))
-
-    state_mod.save(next_state, args.state)
+        if sent == 0:
+            log.error(
+                "every notification failed to send - check NTFY_TOPIC/NTFY_URL. "
+                "State was still written, so these %d will not be resent.", len(notes)
+            )
+            return 1
     return 0
 
 
