@@ -90,7 +90,11 @@ CONFIG: Final[dict] = {
     # --- Politeness / robustness -----------------------------------------
     "request_delay_seconds": (1.5, 4.0),  # random sleep between requests
     "request_timeout": 40,
-    "max_retries": 3,
+    # 5, not 3: from a datacenter IP the first deep request to cars.com is
+    # usually refused and the session only becomes trusted after a couple of
+    # attempts. Observed in CI - the first target burned all 3 retries while
+    # every later target succeeded first try.
+    "max_retries": 5,
     "max_pages_per_target": 3,  # SRP pagination cap, per target per source
     # Upper bound for CarMax's year range facet (it needs min-max, not min).
     "carmax_year_max": 2027,

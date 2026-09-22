@@ -99,6 +99,9 @@ class Fetcher:
             self._session.get(
                 f"https://{host}/", headers=self._headers(), timeout=self.timeout
             )
+            # Dwell briefly, as a human would before clicking through. Going
+            # straight from the root to a search URL in ~0ms is itself a tell.
+            time.sleep(random.uniform(1.0, 2.5))
             log.debug("  warmed up %s", host)
         except Exception as exc:
             log.debug("  warm-up of %s failed (continuing): %s", host, exc)
