@@ -21,7 +21,7 @@
         "cars.com"
       ],
       "state": "MA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium TFSI quattro Tiptronic",
       "url": "https://www.cars.com/vehicledetail/9de5e7a0-1b96-4556-9ad2-0df5100a8004/",
       "urls": {
@@ -40,7 +40,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T23:48:02+00:00",
+      "last_seen": "2026-09-23T00:39:00+00:00",
       "make": "Audi",
       "mileage": 44789,
       "model": "S4",
@@ -80,7 +80,7 @@
         "cars.com"
       ],
       "state": "FL",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium TFSI quattro Tiptronic",
       "url": "https://www.cars.com/vehicledetail/d6f70c6b-cb60-4db5-8da0-4dbe3b8b531c/",
       "urls": {
@@ -92,29 +92,26 @@
     "WAUA4CF53NA028743": {
       "body_style": "Hatchback",
       "city": "Breaux Bridge",
-      "dealer": "Courtesy Ford of Breaux Bridge",
-      "distance_mi": 744.0,
+      "dealer": "Courtesy Ford",
+      "distance_mi": 742.73,
       "first_seen": "2026-09-22T18:37:05+00:00",
       "flags": [
-        "certified",
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T23:48:02+00:00",
+      "last_seen": "2026-09-23T00:39:00+00:00",
       "make": "Audi",
       "mileage": 27526,
       "model": "S5",
       "price": 36885,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "LA",
       "status": "available",
-      "trim": "3.0T QUATTRO PREMIUM",
-      "url": "https://www.cars.com/vehicledetail/3ed9f16c-1309-4440-b815-3f449463380d/",
+      "trim": "Premium",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/783819447",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/783819447",
         "cars.com": "https://www.cars.com/vehicledetail/3ed9f16c-1309-4440-b815-3f449463380d/"
@@ -143,7 +140,7 @@
         "cars.com"
       ],
       "state": "OH",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro Tiptronic",
       "url": "https://www.cars.com/vehicledetail/ad5aa8f3-dc38-4dc1-b3b8-9c6f2c57d224/",
       "urls": {
@@ -153,31 +150,27 @@
       "year": 2023
     },
     "WAUB4AF43LA049878": {
-      "body_style": "Sedan",
+      "body_style": "4D Sedan",
       "city": "Palmdale",
       "dealer": "CarMax Palmdale",
-      "distance_mi": 1875.0,
+      "distance_mi": 1408.3,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
-        "clean_title",
-        "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T23:48:02+00:00",
+      "last_seen": "2026-09-23T00:39:00+00:00",
       "make": "Audi",
       "mileage": 21120,
       "model": "S4",
       "price": 37998,
-      "source": "cars.com",
+      "source": "carmax",
       "sources": [
-        "cars.com",
         "carmax"
       ],
       "state": "CA",
       "status": "available",
       "trim": "Premium Plus",
-      "url": "https://www.cars.com/vehicledetail/439aea68-3f61-4da1-9a23-1cb91e589725/",
+      "url": "https://www.carmax.com/car/70228243",
       "urls": {
         "carmax": "https://www.carmax.com/car/70228243",
         "cars.com": "https://www.cars.com/vehicledetail/439aea68-3f61-4da1-9a23-1cb91e589725/"
@@ -186,30 +179,25 @@
       "year": 2020
     },
     "WAUB4AF43NA050600": {
-      "body_style": "Sedan",
+      "body_style": "4D Sedan",
       "city": "Marysville",
       "dealer": "CarMax Tulalip",
-      "distance_mi": 1961.0,
+      "distance_mi": 1455.7,
       "first_seen": "2026-09-22T13:51:15+00:00",
-      "flags": [
-        "clean_title",
-        "no_accidents",
-        "personal_use"
-      ],
-      "last_seen": "2026-09-22T23:48:02+00:00",
+      "flags": [],
+      "last_seen": "2026-09-23T00:39:00+00:00",
       "make": "Audi",
       "mileage": 21060,
       "model": "S4",
       "price": 37998,
-      "source": "cars.com",
+      "source": "carmax",
       "sources": [
-        "cars.com",
         "carmax"
       ],
       "state": "WA",
       "status": "available",
       "trim": "Premium Plus",
-      "url": "https://www.cars.com/vehicledetail/21ad3ae2-e624-47ac-84a7-787983ce2578/",
+      "url": "https://www.carmax.com/car/28511769",
       "urls": {
         "carmax": "https://www.carmax.com/car/28511769",
         "cars.com": "https://www.cars.com/vehicledetail/21ad3ae2-e624-47ac-84a7-787983ce2578/"
@@ -238,7 +226,7 @@
         "cars.com"
       ],
       "state": "NJ",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro Tiptronic",
       "url": "https://www.cars.com/vehicledetail/e8ceef1a-2390-4b39-9df1-0965473758e8/",
       "urls": {
@@ -250,28 +238,26 @@
     "WAUB4AF48MA014285": {
       "body_style": "Sedan",
       "city": "Tomball",
-      "dealer": "THIScar",
-      "distance_mi": 890.0,
+      "dealer": "THIScar - SELL US YOUR CAR!",
+      "distance_mi": 888.8,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T23:48:02+00:00",
+      "last_seen": "2026-09-23T00:39:00+00:00",
       "make": "Audi",
       "mileage": 40267,
       "model": "S4",
       "price": 36685,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "TX",
       "status": "available",
-      "trim": "3.0T Premium",
-      "url": "https://www.cars.com/vehicledetail/0400fe53-f26d-403d-a09d-34d7aaef19e8/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790748921",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790748921",
         "cars.com": "https://www.cars.com/vehicledetail/0400fe53-f26d-403d-a09d-34d7aaef19e8/"
@@ -300,7 +286,7 @@
         "cars.com"
       ],
       "state": "TX",
-      "status": "available",
+      "status": "gone",
       "trim": "3.0T Premium",
       "url": "https://www.cars.com/vehicledetail/10f849d5-cfee-4304-8db8-f1f555e31497/",
       "urls": {
@@ -312,29 +298,27 @@
     "WAUB4AF48NA030875": {
       "body_style": "Sedan",
       "city": "Montclair",
-      "dealer": "California Motors Direct - Montclair",
-      "distance_mi": 1864.0,
+      "dealer": "California Motors Direct Montclair",
+      "distance_mi": 1863.37,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T23:48:02+00:00",
+      "last_seen": "2026-09-23T00:39:00+00:00",
       "make": "Audi",
       "mileage": 40530,
       "model": "S4",
       "price": 37985,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "CA",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro Tiptronic",
-      "url": "https://www.cars.com/vehicledetail/f832543a-9469-4a1c-95de-b57cc2d6bc9a/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/785624558",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/785624558",
         "cars.com": "https://www.cars.com/vehicledetail/f832543a-9469-4a1c-95de-b57cc2d6bc9a/"
@@ -363,7 +347,7 @@
         "cars.com"
       ],
       "state": "MO",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro Tiptronic",
       "url": "https://www.cars.com/vehicledetail/70799f39-5732-4e35-a745-078aff92cc80/",
       "urls": {
@@ -393,7 +377,7 @@
         "cars.com"
       ],
       "state": "NY",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro Tiptronic",
       "url": "https://www.cars.com/vehicledetail/b965c06a-0865-44c1-9d50-28fdbdc08af2/",
       "urls": {
@@ -405,29 +389,27 @@
     "WAUB4AF4XPA084052": {
       "body_style": "Sedan",
       "city": "Martinez",
-      "dealer": "Gerald Jones VW Audi Mazda Subaru",
-      "distance_mi": 413.0,
+      "dealer": "Gerald Jones Mazda",
+      "distance_mi": 412.58,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T23:48:02+00:00",
+      "last_seen": "2026-09-23T00:39:00+00:00",
       "make": "Audi",
       "mileage": 44796,
       "model": "S4",
       "price": 37566,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "GA",
       "status": "available",
-      "trim": "3.0T Premium Plus",
-      "url": "https://www.cars.com/vehicledetail/e5ee48bc-3f45-45b7-83eb-b835c6d5ce03/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790059611",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790059611",
         "cars.com": "https://www.cars.com/vehicledetail/e5ee48bc-3f45-45b7-83eb-b835c6d5ce03/"
@@ -439,27 +421,25 @@
       "body_style": "Sedan",
       "city": "Marysville",
       "dealer": "Performance Luxury Sport",
-      "distance_mi": 96.0,
+      "distance_mi": 96.12,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T23:48:02+00:00",
+      "last_seen": "2026-09-23T00:39:00+00:00",
       "make": "Audi",
       "mileage": 39606,
       "model": "S4",
       "price": 36898,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "OH",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro Tiptronic",
-      "url": "https://www.cars.com/vehicledetail/218b7f79-a6e6-465e-95f5-14466681489a/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/789027759",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/789027759",
         "cars.com": "https://www.cars.com/vehicledetail/218b7f79-a6e6-465e-95f5-14466681489a/"
@@ -507,7 +487,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T23:48:02+00:00",
+      "last_seen": "2026-09-23T00:39:00+00:00",
       "make": "Audi",
       "mileage": 44809,
       "model": "S4",
@@ -547,7 +527,7 @@
         "cars.com"
       ],
       "state": "PA",
-      "status": "available",
+      "status": "gone",
       "trim": "3.0T Prestige",
       "url": "https://www.cars.com/vehicledetail/9870ac6c-4446-422d-befb-04c781c5ffdf/",
       "urls": {
@@ -559,28 +539,26 @@
     "WAUC4CF50PA019428": {
       "body_style": "Hatchback",
       "city": "Palmetto Bay",
-      "dealer": "HGreg Nissan Kendall",
-      "distance_mi": 968.0,
+      "dealer": "Hgreg Nissan Kendall",
+      "distance_mi": 966.9,
       "first_seen": "2026-09-22T18:33:12+00:00",
       "flags": [
         "clean_title",
-        "no_accidents",
-        "personal_use"
+        "no_accidents"
       ],
-      "last_seen": "2026-09-22T23:48:02+00:00",
+      "last_seen": "2026-09-23T00:39:00+00:00",
       "make": "Audi",
       "mileage": 43722,
       "model": "S5",
       "price": 38499,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "FL",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro Tiptronic",
-      "url": "https://www.cars.com/vehicledetail/14690fe5-c989-4bea-aa5e-4f92590abd6a/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/790635901",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/790635901",
         "cars.com": "https://www.cars.com/vehicledetail/14690fe5-c989-4bea-aa5e-4f92590abd6a/"
@@ -591,29 +569,27 @@
     "WAUC4CF50PA045043": {
       "body_style": "Hatchback",
       "city": "Streetsboro",
-      "dealer": "Volkswagen of Streetsboro",
-      "distance_mi": 220.0,
+      "dealer": "VW of Streetsboro",
+      "distance_mi": 220.18,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "clean_title",
         "no_accidents",
-        "personal_use",
         "one_owner"
       ],
-      "last_seen": "2026-09-22T23:48:02+00:00",
+      "last_seen": "2026-09-23T00:39:00+00:00",
       "make": "Audi",
       "mileage": 35939,
       "model": "S5",
       "price": 37749,
-      "source": "cars.com",
+      "source": "autotrader",
       "sources": [
-        "cars.com",
         "autotrader"
       ],
       "state": "OH",
       "status": "available",
-      "trim": "Premium Plus TFSI quattro Tiptronic",
-      "url": "https://www.cars.com/vehicledetail/9a2e9cca-49ea-4977-b381-352ed2b8e013/",
+      "trim": "Premium Plus",
+      "url": "https://www.autotrader.com/cars-for-sale/vehicle/787237270",
       "urls": {
         "autotrader": "https://www.autotrader.com/cars-for-sale/vehicle/787237270",
         "cars.com": "https://www.cars.com/vehicledetail/9a2e9cca-49ea-4977-b381-352ed2b8e013/"
@@ -642,7 +618,7 @@
         "cars.com"
       ],
       "state": "UT",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro Tiptronic",
       "url": "https://www.cars.com/vehicledetail/c06c4ad8-51f8-44ba-935e-6afe904d9eb7/",
       "urls": {
@@ -672,7 +648,7 @@
         "cars.com"
       ],
       "state": "NC",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.cars.com/vehicledetail/971cf22a-03cd-4492-a59c-15653ea57c3f/",
       "urls": {
@@ -691,7 +667,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-22T23:48:02+00:00",
+      "last_seen": "2026-09-23T00:39:00+00:00",
       "make": "Audi",
       "mileage": 37125,
       "model": "S5",
@@ -733,7 +709,7 @@
         "autotrader"
       ],
       "state": "OH",
-      "status": "available",
+      "status": "gone",
       "trim": "2.0T quattro Premium",
       "url": "https://www.cars.com/vehicledetail/61825fa4-28ff-454a-a677-125d70c1a666/",
       "urls": {
@@ -764,7 +740,7 @@
         "autotrader"
       ],
       "state": "NH",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/789396733",
       "urls": {
@@ -793,7 +769,7 @@
         "autotrader"
       ],
       "state": "TX",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786841467",
       "urls": {
@@ -822,7 +798,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/778683852",
       "urls": {
@@ -852,7 +828,7 @@
         "autotrader"
       ],
       "state": "FL",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/776383002",
       "urls": {
@@ -884,7 +860,7 @@
         "autotrader"
       ],
       "state": "GA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/cb4e847b-55fd-4ca4-82de-e6419c43287e/",
       "urls": {
@@ -915,7 +891,7 @@
         "cars.com"
       ],
       "state": "NJ",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium",
       "url": "https://www.cars.com/vehicledetail/4eb0bc30-e649-46ee-9718-7ce36be1a0a9/",
       "urls": {
@@ -947,7 +923,7 @@
         "autotrader"
       ],
       "state": "IN",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/9ec091e8-15eb-4ade-813a-24df3a8a7667/",
       "urls": {
@@ -980,7 +956,7 @@
         "autotrader"
       ],
       "state": "MA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/d6ad5b55-8f7d-4442-9c9d-c3587eab82ac/",
       "urls": {
@@ -1013,7 +989,7 @@
         "autotrader"
       ],
       "state": "MN",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.cars.com/vehicledetail/82d523ce-6fa1-429d-8ae0-85b24e8cbd18/",
       "urls": {
@@ -1046,7 +1022,7 @@
         "autotrader"
       ],
       "state": "IL",
-      "status": "available",
+      "status": "gone",
       "trim": "2.0T Premium Plus",
       "url": "https://www.cars.com/vehicledetail/e8386e10-d478-4af9-9498-d3c6f4752d13/",
       "urls": {
@@ -1078,7 +1054,7 @@
         "autotrader"
       ],
       "state": "WA",
-      "status": "available",
+      "status": "gone",
       "trim": "2.0T Premium Plus",
       "url": "https://www.cars.com/vehicledetail/c6375e81-816f-42d9-9593-1c18e3a255c1/",
       "urls": {
@@ -1111,7 +1087,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/45d9c65b-1346-43d5-ac0b-86c439b98461/",
       "urls": {
@@ -1142,7 +1118,7 @@
         "cars.com"
       ],
       "state": "ID",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/dadbc160-c9ca-43d8-b679-b48063210160/",
       "urls": {
@@ -1172,7 +1148,7 @@
         "autotrader"
       ],
       "state": "UT",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786935597",
       "urls": {
@@ -1204,7 +1180,7 @@
         "autotrader"
       ],
       "state": "WA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/c982ae87-164c-4ef2-9213-0ea9e03a016b/",
       "urls": {
@@ -1236,7 +1212,7 @@
         "autotrader"
       ],
       "state": "CO",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/2d1f944f-0052-442d-9e06-253d1bad4503/",
       "urls": {
@@ -1267,7 +1243,7 @@
         "autotrader"
       ],
       "state": "MA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/788128684",
       "urls": {
@@ -1297,7 +1273,7 @@
         "cars.com"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/fd765f68-44bf-47ac-a64f-bcb5824ff199/",
       "urls": {
@@ -1329,7 +1305,7 @@
         "autotrader"
       ],
       "state": "NC",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/6afb0a20-92b0-49d4-8fc4-ae507ebb21c1/",
       "urls": {
@@ -1359,7 +1335,7 @@
         "autotrader"
       ],
       "state": "UT",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791614777",
       "urls": {
@@ -1389,7 +1365,7 @@
         "cars.com"
       ],
       "state": "IL",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/53b963b3-118a-476e-890b-a581adc75288/",
       "urls": {
@@ -1421,7 +1397,7 @@
         "autotrader"
       ],
       "state": "FL",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/5a95d905-dad5-4dfb-aa88-5137bf10c162/",
       "urls": {
@@ -1454,7 +1430,7 @@
         "autotrader"
       ],
       "state": "MD",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/ce006ae8-d9ed-40da-ac7a-33de5a959869/",
       "urls": {
@@ -1487,7 +1463,7 @@
         "autotrader"
       ],
       "state": "TX",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/1d3df659-ad91-419f-bd1c-214708a4e9e1/",
       "urls": {
@@ -1518,7 +1494,7 @@
         "cars.com"
       ],
       "state": "TX",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/64663f30-13ca-44a3-bb2c-0321cbb19f99/",
       "urls": {
@@ -1549,7 +1525,7 @@
         "autotrader"
       ],
       "state": "NC",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/e4e0e54b-7586-4de4-8237-72ff15af5bb2/",
       "urls": {
@@ -1582,7 +1558,7 @@
         "autotrader"
       ],
       "state": "CT",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/5ae6faff-7317-4287-9db1-ef8c92cc36ac/",
       "urls": {
@@ -1615,7 +1591,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "2.0T quattro Premium",
       "url": "https://www.cars.com/vehicledetail/45c8a24f-a913-47fb-a483-5f596271073b/",
       "urls": {
@@ -1648,7 +1624,7 @@
         "autotrader"
       ],
       "state": "TX",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/d4de5d6d-6ebf-4a4b-9989-afdb2c629b08/",
       "urls": {
@@ -1682,7 +1658,7 @@
         "autotrader"
       ],
       "state": "TX",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/4051dc2a-b4f8-48a6-be39-ced31a197301/",
       "urls": {
@@ -1713,7 +1689,7 @@
         "autotrader"
       ],
       "state": "NH",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786766715",
       "urls": {
@@ -1743,7 +1719,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791086016",
       "urls": {
@@ -1774,7 +1750,7 @@
         "autotrader"
       ],
       "state": "IL",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/2c40f37f-0ea4-4162-94a0-3251f9c5ab6e/",
       "urls": {
@@ -1806,7 +1782,7 @@
         "autotrader"
       ],
       "state": "IL",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/36f8b74b-7ed7-400d-84e1-12630e0f6fc2/",
       "urls": {
@@ -1838,7 +1814,7 @@
         "autotrader"
       ],
       "state": "FL",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/84a9ce8f-d7a9-4acd-a136-120928f9bf0b/",
       "urls": {
@@ -1869,7 +1845,7 @@
         "autotrader"
       ],
       "state": "TX",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/785482484",
       "urls": {
@@ -1901,7 +1877,7 @@
         "autotrader"
       ],
       "state": "CT",
-      "status": "available",
+      "status": "gone",
       "trim": "2.0T Premium Plus",
       "url": "https://www.cars.com/vehicledetail/c9ac41f6-70a4-4842-8245-b9fc821db30e/",
       "urls": {
@@ -1934,7 +1910,7 @@
         "autotrader"
       ],
       "state": "CT",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/1d4cdb48-76fd-4c2e-bc87-f35b8380a991/",
       "urls": {
@@ -1965,7 +1941,7 @@
         "autotrader"
       ],
       "state": "MA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/788330690",
       "urls": {
@@ -1996,7 +1972,7 @@
         "autotrader"
       ],
       "state": "IN",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/9f293787-91b7-4115-9d12-cad1603d1229/",
       "urls": {
@@ -2027,7 +2003,7 @@
         "autotrader"
       ],
       "state": "TX",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/789224734",
       "urls": {
@@ -2056,7 +2032,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/781737639",
       "urls": {
@@ -2088,7 +2064,7 @@
         "autotrader"
       ],
       "state": "NC",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/6090d115-034c-4b9c-abca-2c194d3c1066/",
       "urls": {
@@ -2118,7 +2094,7 @@
         "autotrader"
       ],
       "state": "UT",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/789479333",
       "urls": {
@@ -2150,7 +2126,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "2.0T Premium Plus",
       "url": "https://www.cars.com/vehicledetail/4cf7fddb-990e-475e-827b-d76f2cfc0f55/",
       "urls": {
@@ -2183,7 +2159,7 @@
         "autotrader"
       ],
       "state": "NH",
-      "status": "available",
+      "status": "gone",
       "trim": "2.0T Premium Plus",
       "url": "https://www.cars.com/vehicledetail/bd9964c7-70e2-4f27-a2d6-919142844043/",
       "urls": {
@@ -2214,7 +2190,7 @@
         "cars.com"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "2.0T quattro Premium",
       "url": "https://www.cars.com/vehicledetail/24065c8b-7057-48d9-8af7-2fd3bf1207ed/",
       "urls": {
@@ -2246,7 +2222,7 @@
         "autotrader"
       ],
       "state": "IL",
-      "status": "available",
+      "status": "gone",
       "trim": "2.0T quattro Premium",
       "url": "https://www.cars.com/vehicledetail/6103335b-2e54-463e-ac65-f0da7a7beabf/",
       "urls": {
@@ -2278,7 +2254,7 @@
         "autotrader"
       ],
       "state": "NY",
-      "status": "available",
+      "status": "gone",
       "trim": "2.0T Prestige",
       "url": "https://www.cars.com/vehicledetail/87f8b171-cb53-4e96-ad62-10cf0b09cee8/",
       "urls": {
@@ -2309,7 +2285,7 @@
         "autotrader"
       ],
       "state": "NY",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791510291",
       "urls": {
@@ -2340,7 +2316,7 @@
         "autotrader"
       ],
       "state": "MN",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige",
       "url": "https://www.cars.com/vehicledetail/2c991432-fdf8-4a1e-9927-8f520b79c0fa/",
       "urls": {
@@ -2371,7 +2347,7 @@
         "autotrader"
       ],
       "state": "OR",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786342588",
       "urls": {
@@ -2403,7 +2379,7 @@
         "autotrader"
       ],
       "state": "MA",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/7eedfce4-3ac3-43c1-9d0a-f1b40993c086/",
       "urls": {
@@ -2434,7 +2410,7 @@
         "autotrader"
       ],
       "state": "FL",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/787846964",
       "urls": {
@@ -2464,7 +2440,7 @@
         "autotrader"
       ],
       "state": "MA",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791298383",
       "urls": {
@@ -2494,7 +2470,7 @@
         "autotrader"
       ],
       "state": "NJ",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/790237634",
       "urls": {
@@ -2525,7 +2501,7 @@
         "autotrader"
       ],
       "state": "OR",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige TFSI quattro S tronic",
       "url": "https://www.cars.com/vehicledetail/9b7efa7a-92cc-47d0-ad72-1c0fe83c9141/",
       "urls": {
@@ -2556,7 +2532,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791597671",
       "urls": {
@@ -2567,5 +2543,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-09-22T23:48:02+00:00"
+  "updated_at": "2026-09-23T00:39:00+00:00"
 }
