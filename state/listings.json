@@ -40,7 +40,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T08:16:05+00:00",
+      "last_seen": "2026-09-27T14:04:44+00:00",
       "make": "Audi",
       "mileage": 24814,
       "model": "S4",
@@ -69,7 +69,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T08:16:05+00:00",
+      "last_seen": "2026-09-27T14:04:44+00:00",
       "make": "Audi",
       "mileage": 44789,
       "model": "S4",
@@ -128,7 +128,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T08:16:05+00:00",
+      "last_seen": "2026-09-27T14:04:44+00:00",
       "make": "Audi",
       "mileage": 27526,
       "model": "S5",
@@ -223,7 +223,7 @@
         "carmax"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.carmax.com/car/70228243",
       "urls": {
@@ -250,7 +250,7 @@
         "carmax"
       ],
       "state": "WA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.carmax.com/car/28511769",
       "urls": {
@@ -301,7 +301,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T08:16:05+00:00",
+      "last_seen": "2026-09-27T14:04:44+00:00",
       "make": "Audi",
       "mileage": 40267,
       "model": "S4",
@@ -362,7 +362,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T08:16:05+00:00",
+      "last_seen": "2026-09-27T14:04:44+00:00",
       "make": "Audi",
       "mileage": 40530,
       "model": "S4",
@@ -423,7 +423,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T08:16:05+00:00",
+      "last_seen": "2026-09-27T14:04:44+00:00",
       "make": "Audi",
       "mileage": 35584,
       "model": "S4",
@@ -483,7 +483,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T08:16:05+00:00",
+      "last_seen": "2026-09-27T14:04:44+00:00",
       "make": "Audi",
       "mileage": 44796,
       "model": "S4",
@@ -513,7 +513,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T08:16:05+00:00",
+      "last_seen": "2026-09-27T14:04:44+00:00",
       "make": "Audi",
       "mileage": 39606,
       "model": "S4",
@@ -544,7 +544,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T08:16:05+00:00",
+      "last_seen": "2026-09-27T14:04:44+00:00",
       "make": "Audi",
       "mileage": 44501,
       "model": "S5",
@@ -603,7 +603,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T08:16:05+00:00",
+      "last_seen": "2026-09-27T14:04:44+00:00",
       "make": "Audi",
       "mileage": 44809,
       "model": "S4",
@@ -754,7 +754,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T08:16:05+00:00",
+      "last_seen": "2026-09-27T14:04:44+00:00",
       "make": "Audi",
       "mileage": 36586,
       "model": "S5",
@@ -813,7 +813,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T08:16:05+00:00",
+      "last_seen": "2026-09-27T14:04:44+00:00",
       "make": "Audi",
       "mileage": 37125,
       "model": "S5",
@@ -843,7 +843,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T08:16:05+00:00",
+      "last_seen": "2026-09-27T14:04:44+00:00",
       "make": "Audi",
       "mileage": 40810,
       "model": "S5",
@@ -1244,7 +1244,7 @@
         "carmax"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.carmax.com/car/70270626",
       "urls": {
@@ -2000,7 +2000,7 @@
         "carmax"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.carmax.com/car/70271583",
       "urls": {
@@ -2857,5 +2857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-09-27T08:16:05+00:00"
+  "updated_at": "2026-09-27T14:04:44+00:00"
 }
