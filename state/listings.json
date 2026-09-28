@@ -40,7 +40,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 24814,
       "model": "S4",
@@ -50,7 +50,7 @@
         "autotrader"
       ],
       "state": "MO",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/764527660",
       "urls": {
@@ -69,7 +69,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 44789,
       "model": "S4",
@@ -79,7 +79,7 @@
         "autotrader"
       ],
       "state": "FL",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/788784606",
       "urls": {
@@ -128,7 +128,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 27526,
       "model": "S5",
@@ -138,7 +138,7 @@
         "autotrader"
       ],
       "state": "LA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/783819447",
       "urls": {
@@ -208,12 +208,12 @@
       "body_style": "4D Sedan",
       "city": "Oxnard",
       "dealer": "CarMax Oxnard",
-      "distance_mi": 1776.4,
+      "distance_mi": 260.5,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [
         "one_owner"
       ],
-      "last_seen": "2026-09-27T22:16:52+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 21234,
       "model": "S4",
@@ -237,10 +237,10 @@
       "body_style": "4D Sedan",
       "city": "Marysville",
       "dealer": "CarMax Tulalip",
-      "distance_mi": 1727.7,
+      "distance_mi": 749.0,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [],
-      "last_seen": "2026-09-27T22:16:52+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 21060,
       "model": "S4",
@@ -301,7 +301,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 40267,
       "model": "S4",
@@ -311,7 +311,7 @@
         "autotrader"
       ],
       "state": "TX",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/790748921",
       "urls": {
@@ -362,7 +362,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 40530,
       "model": "S4",
@@ -372,7 +372,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/785624558",
       "urls": {
@@ -423,7 +423,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 35584,
       "model": "S4",
@@ -433,7 +433,7 @@
         "autotrader"
       ],
       "state": "IL",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791956055",
       "urls": {
@@ -483,7 +483,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 44796,
       "model": "S4",
@@ -493,7 +493,7 @@
         "autotrader"
       ],
       "state": "GA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/790059611",
       "urls": {
@@ -513,7 +513,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 39606,
       "model": "S4",
@@ -523,7 +523,7 @@
         "autotrader"
       ],
       "state": "OH",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/789027759",
       "urls": {
@@ -544,7 +544,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 44501,
       "model": "S5",
@@ -554,7 +554,7 @@
         "autotrader"
       ],
       "state": "NY",
-      "status": "gone",
+      "status": "available",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/787000467",
       "urls": {
@@ -603,7 +603,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 44809,
       "model": "S4",
@@ -613,7 +613,7 @@
         "autotrader"
       ],
       "state": "IL",
-      "status": "gone",
+      "status": "available",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/783656210",
       "urls": {
@@ -754,7 +754,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 36586,
       "model": "S5",
@@ -764,7 +764,7 @@
         "autotrader"
       ],
       "state": "GA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786790812",
       "urls": {
@@ -813,7 +813,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 37125,
       "model": "S5",
@@ -823,7 +823,7 @@
         "autotrader"
       ],
       "state": "OH",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791122557",
       "urls": {
@@ -843,7 +843,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 40810,
       "model": "S5",
@@ -853,7 +853,7 @@
         "autotrader"
       ],
       "state": "GA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/787555652",
       "urls": {
@@ -873,7 +873,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 42623,
       "model": "S3",
@@ -883,7 +883,7 @@
         "autotrader"
       ],
       "state": "OH",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791186584",
       "urls": {
@@ -933,7 +933,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 31125,
       "model": "S3",
@@ -943,7 +943,7 @@
         "autotrader"
       ],
       "state": "TX",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786841467",
       "urls": {
@@ -962,7 +962,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 30000,
       "model": "S3",
@@ -972,7 +972,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/778683852",
       "urls": {
@@ -992,7 +992,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 29457,
       "model": "S3",
@@ -1002,7 +1002,7 @@
         "autotrader"
       ],
       "state": "FL",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/776383002",
       "urls": {
@@ -1023,7 +1023,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 36903,
       "model": "S3",
@@ -1033,7 +1033,7 @@
         "autotrader"
       ],
       "state": "GA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/790902863",
       "urls": {
@@ -1084,7 +1084,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 22735,
       "model": "S3",
@@ -1094,7 +1094,7 @@
         "autotrader"
       ],
       "state": "IN",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/784894565",
       "urls": {
@@ -1115,7 +1115,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 38227,
       "model": "S3",
@@ -1125,7 +1125,7 @@
         "autotrader"
       ],
       "state": "MA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/787814611",
       "urls": {
@@ -1146,7 +1146,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 44798,
       "model": "S3",
@@ -1156,7 +1156,7 @@
         "autotrader"
       ],
       "state": "MN",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/784803614",
       "urls": {
@@ -1207,7 +1207,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 40442,
       "model": "S3",
@@ -1217,7 +1217,7 @@
         "autotrader"
       ],
       "state": "WA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/790937594",
       "urls": {
@@ -1231,10 +1231,10 @@
       "body_style": "4D Sedan",
       "city": "Fremont",
       "dealer": "CarMax Fremont",
-      "distance_mi": 1832.7,
+      "distance_mi": 16.6,
       "first_seen": "2026-09-26T07:46:52+00:00",
       "flags": [],
-      "last_seen": "2026-09-27T22:16:52+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 22227,
       "model": "S3",
@@ -1264,7 +1264,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 23455,
       "model": "S3",
@@ -1274,7 +1274,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/782662083",
       "urls": {
@@ -1325,7 +1325,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 25381,
       "model": "S3",
@@ -1335,7 +1335,7 @@
         "autotrader"
       ],
       "state": "UT",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786935597",
       "urls": {
@@ -1355,7 +1355,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 26688,
       "model": "S3",
@@ -1365,7 +1365,7 @@
         "autotrader"
       ],
       "state": "WA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786141128",
       "urls": {
@@ -1385,7 +1385,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 31237,
       "model": "S3",
@@ -1395,7 +1395,7 @@
         "autotrader"
       ],
       "state": "CO",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/767465093",
       "urls": {
@@ -1415,7 +1415,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 36042,
       "model": "S3",
@@ -1425,7 +1425,7 @@
         "autotrader"
       ],
       "state": "NJ",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791784136",
       "urls": {
@@ -1445,7 +1445,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 24082,
       "model": "S3",
@@ -1455,7 +1455,7 @@
         "autotrader"
       ],
       "state": "MA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/788128684",
       "urls": {
@@ -1535,7 +1535,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 33553,
       "model": "S3",
@@ -1545,7 +1545,7 @@
         "autotrader"
       ],
       "state": "UT",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791614777",
       "urls": {
@@ -1565,7 +1565,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 30943,
       "model": "S3",
@@ -1575,7 +1575,7 @@
         "autotrader"
       ],
       "state": "WA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791781163",
       "urls": {
@@ -1625,7 +1625,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 22406,
       "model": "S3",
@@ -1635,7 +1635,7 @@
         "autotrader"
       ],
       "state": "FL",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/785241527",
       "urls": {
@@ -1656,7 +1656,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 26987,
       "model": "S3",
@@ -1666,7 +1666,7 @@
         "autotrader"
       ],
       "state": "MD",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/788887202",
       "urls": {
@@ -1687,7 +1687,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 25209,
       "model": "S3",
@@ -1697,7 +1697,7 @@
         "autotrader"
       ],
       "state": "IL",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791786890",
       "urls": {
@@ -1718,7 +1718,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 24328,
       "model": "S3",
@@ -1728,7 +1728,7 @@
         "autotrader"
       ],
       "state": "TX",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/784719502",
       "urls": {
@@ -1778,7 +1778,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 27542,
       "model": "S3",
@@ -1788,7 +1788,7 @@
         "autotrader"
       ],
       "state": "NC",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/788504063",
       "urls": {
@@ -1809,7 +1809,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 30029,
       "model": "S3",
@@ -1819,7 +1819,7 @@
         "autotrader"
       ],
       "state": "CT",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791592095",
       "urls": {
@@ -1840,7 +1840,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 25707,
       "model": "S3",
@@ -1850,7 +1850,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/784366818",
       "urls": {
@@ -1871,7 +1871,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 34130,
       "model": "S3",
@@ -1881,7 +1881,7 @@
         "autotrader"
       ],
       "state": "TX",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/787249275",
       "urls": {
@@ -1903,7 +1903,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 17750,
       "model": "S3",
@@ -1913,7 +1913,7 @@
         "autotrader"
       ],
       "state": "TX",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786173282",
       "urls": {
@@ -1964,7 +1964,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 39292,
       "model": "S3",
@@ -1974,7 +1974,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791086016",
       "urls": {
@@ -1987,10 +1987,10 @@
       "body_style": "4D Sedan",
       "city": "Buena Park",
       "dealer": "CarMax Buena Park",
-      "distance_mi": 1728.5,
+      "distance_mi": 320.5,
       "first_seen": "2026-09-25T07:53:54+00:00",
       "flags": [],
-      "last_seen": "2026-09-27T22:16:52+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 39897,
       "model": "S3",
@@ -2019,7 +2019,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 26648,
       "model": "S3",
@@ -2029,7 +2029,7 @@
         "autotrader"
       ],
       "state": "IL",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/790417536",
       "urls": {
@@ -2049,17 +2049,17 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 26964,
       "model": "S3",
-      "price": 35902,
+      "price": 35882,
       "source": "autotrader",
       "sources": [
         "autotrader"
       ],
       "state": "IL",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/790375798",
       "urls": {
@@ -2079,7 +2079,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 19600,
       "model": "S3",
@@ -2089,7 +2089,7 @@
         "autotrader"
       ],
       "state": "FL",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/789771897",
       "urls": {
@@ -2110,7 +2110,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 29540,
       "model": "S3",
@@ -2120,7 +2120,7 @@
         "autotrader"
       ],
       "state": "TX",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/785482484",
       "urls": {
@@ -2171,7 +2171,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 43500,
       "model": "S3",
@@ -2181,7 +2181,7 @@
         "autotrader"
       ],
       "state": "CT",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/785379843",
       "urls": {
@@ -2202,7 +2202,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 42913,
       "model": "S3",
@@ -2212,7 +2212,7 @@
         "autotrader"
       ],
       "state": "CT",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/787364309",
       "urls": {
@@ -2233,7 +2233,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 30009,
       "model": "S3",
@@ -2243,7 +2243,7 @@
         "autotrader"
       ],
       "state": "MA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/788330690",
       "urls": {
@@ -2262,7 +2262,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 26049,
       "model": "S3",
@@ -2272,7 +2272,7 @@
         "autotrader"
       ],
       "state": "IN",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/785858347",
       "urls": {
@@ -2322,7 +2322,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 23327,
       "model": "S3",
@@ -2332,7 +2332,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/781737639",
       "urls": {
@@ -2352,7 +2352,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 28542,
       "model": "S3",
@@ -2362,7 +2362,7 @@
         "autotrader"
       ],
       "state": "NC",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/775624925",
       "urls": {
@@ -2382,7 +2382,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 34646,
       "model": "S3",
@@ -2392,7 +2392,7 @@
         "autotrader"
       ],
       "state": "UT",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/789479333",
       "urls": {
@@ -2412,7 +2412,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 15323,
       "model": "S3",
@@ -2422,7 +2422,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791607342",
       "urls": {
@@ -2474,7 +2474,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 39368,
       "model": "S3",
@@ -2484,7 +2484,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "gone",
+      "status": "available",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786881863",
       "urls": {
@@ -2535,7 +2535,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 27229,
       "model": "S3",
@@ -2545,7 +2545,7 @@
         "autotrader"
       ],
       "state": "NY",
-      "status": "gone",
+      "status": "available",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/788611677",
       "urls": {
@@ -2566,7 +2566,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 30815,
       "model": "S3",
@@ -2576,7 +2576,7 @@
         "autotrader"
       ],
       "state": "NY",
-      "status": "gone",
+      "status": "available",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791510291",
       "urls": {
@@ -2595,7 +2595,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 40945,
       "model": "S3",
@@ -2605,7 +2605,7 @@
         "autotrader"
       ],
       "state": "IN",
-      "status": "gone",
+      "status": "available",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/792066498",
       "urls": {
@@ -2655,7 +2655,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 35042,
       "model": "S3",
@@ -2665,7 +2665,7 @@
         "autotrader"
       ],
       "state": "OR",
-      "status": "gone",
+      "status": "available",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786342588",
       "urls": {
@@ -2685,7 +2685,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 39122,
       "model": "S3",
@@ -2695,7 +2695,7 @@
         "autotrader"
       ],
       "state": "MA",
-      "status": "gone",
+      "status": "available",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/785310718",
       "urls": {
@@ -2746,7 +2746,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 35656,
       "model": "S3",
@@ -2756,7 +2756,7 @@
         "autotrader"
       ],
       "state": "MA",
-      "status": "gone",
+      "status": "available",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791298383",
       "urls": {
@@ -2776,7 +2776,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 32100,
       "model": "S3",
@@ -2786,7 +2786,7 @@
         "autotrader"
       ],
       "state": "NJ",
-      "status": "gone",
+      "status": "available",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/790237634",
       "urls": {
@@ -2805,7 +2805,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 31689,
       "model": "S3",
@@ -2815,7 +2815,7 @@
         "autotrader"
       ],
       "state": "OR",
-      "status": "gone",
+      "status": "available",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/785858859",
       "urls": {
@@ -2836,7 +2836,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-27T18:28:37+00:00",
+      "last_seen": "2026-09-28T00:53:14+00:00",
       "make": "Audi",
       "mileage": 29968,
       "model": "S3",
@@ -2846,7 +2846,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "gone",
+      "status": "available",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791597671",
       "urls": {
@@ -2857,5 +2857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-09-27T22:16:52+00:00"
+  "updated_at": "2026-09-28T00:53:14+00:00"
 }
