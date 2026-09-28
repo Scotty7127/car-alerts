@@ -40,7 +40,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-28T00:53:14+00:00",
+      "last_seen": "2026-09-28T06:59:53+00:00",
       "make": "Audi",
       "mileage": 24814,
       "model": "S4",
@@ -69,7 +69,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-28T00:53:14+00:00",
+      "last_seen": "2026-09-28T06:59:53+00:00",
       "make": "Audi",
       "mileage": 44789,
       "model": "S4",
@@ -128,7 +128,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-28T00:53:14+00:00",
+      "last_seen": "2026-09-28T06:59:53+00:00",
       "make": "Audi",
       "mileage": 27526,
       "model": "S5",
@@ -213,7 +213,7 @@
       "flags": [
         "one_owner"
       ],
-      "last_seen": "2026-09-28T00:53:14+00:00",
+      "last_seen": "2026-09-28T06:59:53+00:00",
       "make": "Audi",
       "mileage": 21234,
       "model": "S4",
@@ -240,7 +240,7 @@
       "distance_mi": 749.0,
       "first_seen": "2026-09-22T13:51:15+00:00",
       "flags": [],
-      "last_seen": "2026-09-28T00:53:14+00:00",
+      "last_seen": "2026-09-28T06:59:53+00:00",
       "make": "Audi",
       "mileage": 21060,
       "model": "S4",
@@ -301,7 +301,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-28T00:53:14+00:00",
+      "last_seen": "2026-09-28T06:59:53+00:00",
       "make": "Audi",
       "mileage": 40267,
       "model": "S4",
@@ -362,7 +362,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-28T00:53:14+00:00",
+      "last_seen": "2026-09-28T06:59:53+00:00",
       "make": "Audi",
       "mileage": 40530,
       "model": "S4",
@@ -423,7 +423,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-28T00:53:14+00:00",
+      "last_seen": "2026-09-28T06:59:53+00:00",
       "make": "Audi",
       "mileage": 35584,
       "model": "S4",
@@ -483,7 +483,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-28T00:53:14+00:00",
+      "last_seen": "2026-09-28T06:59:53+00:00",
       "make": "Audi",
       "mileage": 44796,
       "model": "S4",
@@ -513,7 +513,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-28T00:53:14+00:00",
+      "last_seen": "2026-09-28T06:59:53+00:00",
       "make": "Audi",
       "mileage": 39606,
       "model": "S4",
@@ -544,7 +544,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-28T00:53:14+00:00",
+      "last_seen": "2026-09-28T06:59:53+00:00",
       "make": "Audi",
       "mileage": 44501,
       "model": "S5",
@@ -603,7 +603,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-28T00:53:14+00:00",
+      "last_seen": "2026-09-28T06:59:53+00:00",
       "make": "Audi",
       "mileage": 44809,
       "model": "S4",
@@ -754,7 +754,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-28T00:53:14+00:00",
+      "last_seen": "2026-09-28T06:59:53+00:00",
       "make": "Audi",
       "mileage": 36586,
       "model": "S5",
@@ -813,7 +813,7 @@
         "clean_title",
         "no_accidents"
       ],
-      "last_seen": "2026-09-28T00:53:14+00:00",
+      "last_seen": "2026-09-28T06:59:53+00:00",
       "make": "Audi",
       "mileage": 37125,
       "model": "S5",
@@ -843,7 +843,7 @@
         "no_accidents",
         "one_owner"
       ],
-      "last_seen": "2026-09-28T00:53:14+00:00",
+      "last_seen": "2026-09-28T06:59:53+00:00",
       "make": "Audi",
       "mileage": 40810,
       "model": "S5",
@@ -883,7 +883,7 @@
         "autotrader"
       ],
       "state": "OH",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791186584",
       "urls": {
@@ -943,7 +943,7 @@
         "autotrader"
       ],
       "state": "TX",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786841467",
       "urls": {
@@ -972,7 +972,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/778683852",
       "urls": {
@@ -1002,7 +1002,7 @@
         "autotrader"
       ],
       "state": "FL",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/776383002",
       "urls": {
@@ -1033,7 +1033,7 @@
         "autotrader"
       ],
       "state": "GA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/790902863",
       "urls": {
@@ -1094,7 +1094,7 @@
         "autotrader"
       ],
       "state": "IN",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/784894565",
       "urls": {
@@ -1125,7 +1125,7 @@
         "autotrader"
       ],
       "state": "MA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/787814611",
       "urls": {
@@ -1156,7 +1156,7 @@
         "autotrader"
       ],
       "state": "MN",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/784803614",
       "urls": {
@@ -1217,7 +1217,7 @@
         "autotrader"
       ],
       "state": "WA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/790937594",
       "urls": {
@@ -1234,7 +1234,7 @@
       "distance_mi": 16.6,
       "first_seen": "2026-09-26T07:46:52+00:00",
       "flags": [],
-      "last_seen": "2026-09-28T00:53:14+00:00",
+      "last_seen": "2026-09-28T06:59:53+00:00",
       "make": "Audi",
       "mileage": 22227,
       "model": "S3",
@@ -1274,7 +1274,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/782662083",
       "urls": {
@@ -1335,7 +1335,7 @@
         "autotrader"
       ],
       "state": "UT",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786935597",
       "urls": {
@@ -1365,7 +1365,7 @@
         "autotrader"
       ],
       "state": "WA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786141128",
       "urls": {
@@ -1395,7 +1395,7 @@
         "autotrader"
       ],
       "state": "CO",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/767465093",
       "urls": {
@@ -1425,7 +1425,7 @@
         "autotrader"
       ],
       "state": "NJ",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791784136",
       "urls": {
@@ -1455,7 +1455,7 @@
         "autotrader"
       ],
       "state": "MA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/788128684",
       "urls": {
@@ -1545,7 +1545,7 @@
         "autotrader"
       ],
       "state": "UT",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791614777",
       "urls": {
@@ -1575,7 +1575,7 @@
         "autotrader"
       ],
       "state": "WA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791781163",
       "urls": {
@@ -1635,7 +1635,7 @@
         "autotrader"
       ],
       "state": "FL",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/785241527",
       "urls": {
@@ -1666,7 +1666,7 @@
         "autotrader"
       ],
       "state": "MD",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/788887202",
       "urls": {
@@ -1697,7 +1697,7 @@
         "autotrader"
       ],
       "state": "IL",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791786890",
       "urls": {
@@ -1728,7 +1728,7 @@
         "autotrader"
       ],
       "state": "TX",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/784719502",
       "urls": {
@@ -1788,7 +1788,7 @@
         "autotrader"
       ],
       "state": "NC",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/788504063",
       "urls": {
@@ -1819,7 +1819,7 @@
         "autotrader"
       ],
       "state": "CT",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791592095",
       "urls": {
@@ -1850,7 +1850,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/784366818",
       "urls": {
@@ -1881,7 +1881,7 @@
         "autotrader"
       ],
       "state": "TX",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/787249275",
       "urls": {
@@ -1913,7 +1913,7 @@
         "autotrader"
       ],
       "state": "TX",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786173282",
       "urls": {
@@ -1974,7 +1974,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791086016",
       "urls": {
@@ -1990,7 +1990,7 @@
       "distance_mi": 320.5,
       "first_seen": "2026-09-25T07:53:54+00:00",
       "flags": [],
-      "last_seen": "2026-09-28T00:53:14+00:00",
+      "last_seen": "2026-09-28T06:59:53+00:00",
       "make": "Audi",
       "mileage": 39897,
       "model": "S3",
@@ -2029,7 +2029,7 @@
         "autotrader"
       ],
       "state": "IL",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/790417536",
       "urls": {
@@ -2059,7 +2059,7 @@
         "autotrader"
       ],
       "state": "IL",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/790375798",
       "urls": {
@@ -2089,7 +2089,7 @@
         "autotrader"
       ],
       "state": "FL",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/789771897",
       "urls": {
@@ -2120,7 +2120,7 @@
         "autotrader"
       ],
       "state": "TX",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/785482484",
       "urls": {
@@ -2181,7 +2181,7 @@
         "autotrader"
       ],
       "state": "CT",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/785379843",
       "urls": {
@@ -2212,7 +2212,7 @@
         "autotrader"
       ],
       "state": "CT",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/787364309",
       "urls": {
@@ -2243,7 +2243,7 @@
         "autotrader"
       ],
       "state": "MA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/788330690",
       "urls": {
@@ -2272,7 +2272,7 @@
         "autotrader"
       ],
       "state": "IN",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/785858347",
       "urls": {
@@ -2332,7 +2332,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/781737639",
       "urls": {
@@ -2362,7 +2362,7 @@
         "autotrader"
       ],
       "state": "NC",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/775624925",
       "urls": {
@@ -2392,7 +2392,7 @@
         "autotrader"
       ],
       "state": "UT",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/789479333",
       "urls": {
@@ -2422,7 +2422,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791607342",
       "urls": {
@@ -2484,7 +2484,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Premium Plus",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786881863",
       "urls": {
@@ -2545,7 +2545,7 @@
         "autotrader"
       ],
       "state": "NY",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/788611677",
       "urls": {
@@ -2576,7 +2576,7 @@
         "autotrader"
       ],
       "state": "NY",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791510291",
       "urls": {
@@ -2605,7 +2605,7 @@
         "autotrader"
       ],
       "state": "IN",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/792066498",
       "urls": {
@@ -2665,7 +2665,7 @@
         "autotrader"
       ],
       "state": "OR",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786342588",
       "urls": {
@@ -2695,7 +2695,7 @@
         "autotrader"
       ],
       "state": "MA",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/785310718",
       "urls": {
@@ -2756,7 +2756,7 @@
         "autotrader"
       ],
       "state": "MA",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791298383",
       "urls": {
@@ -2786,7 +2786,7 @@
         "autotrader"
       ],
       "state": "NJ",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/790237634",
       "urls": {
@@ -2815,7 +2815,7 @@
         "autotrader"
       ],
       "state": "OR",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/785858859",
       "urls": {
@@ -2846,7 +2846,7 @@
         "autotrader"
       ],
       "state": "CA",
-      "status": "available",
+      "status": "gone",
       "trim": "Prestige",
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/791597671",
       "urls": {
@@ -2857,5 +2857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-09-28T00:53:14+00:00"
+  "updated_at": "2026-09-28T06:59:53+00:00"
 }
